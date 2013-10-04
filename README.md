@@ -10,8 +10,13 @@ How To Use
 Simply use the function...
 
     download_vcs(filename, subject, description, location, begin, end);
-    
+
 `begin` and `end` need to be formatted in a way that is friendly to `Date()`
+
+
+Example
+-------
+    <a href="javascript:download_vcs('demo', 'Demo Event', 'This is an awesome demo event', 'Sexy Land, AK', '8/7/2013', '8/9/2013')">Demo</a>
 
 Dependencies
 ------------
