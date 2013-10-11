@@ -1,5 +1,5 @@
 /*  VCS-Maker.js  */
-download_vcs = function(filename, subject, description, location, begin, end) {
+download_vcs = function(filename, subject, description, location, begin, end, ext='.vcs') {
 	if (navigator.userAgent.indexOf('MSIE') > -1 && navigator.userAgent.indexOf('MSIE 10') == -1) {
 		console.log('Unsupported Browser');
 		return;
@@ -44,5 +44,5 @@ download_vcs = function(filename, subject, description, location, begin, end) {
 		bb.append(calendar);
 		var blob = bb.getBlob("text/x-vCalendar;charset=" + document.characterSet);
 	}
-	saveAs(blob, filename+".vcs");
+	saveAs(blob, filename+ext);
 }
