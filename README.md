@@ -16,7 +16,12 @@ Simply use the function...
 
 Example
 -------
-    <a href="javascript:download_ics('demo', 'Demo Event', 'This is an awesome demo event', 'Sexy Land, AK', '8/7/2013', '8/9/2013')">Demo</a>
+* **[Demo](http://htmlpreview.github.io/?https://github.com/nwcell/ics.js/blob/master/demo/demo.html)**
+
+```
+<a href="javascript:download_ics('demo', 'Demo Event', 'This is an awesome demo event', 'Sexy Land, AK', '8/7/2013', '8/9/2013')">Demo</a>
+```
+
 
 Dependencies
 ------------
@@ -31,13 +36,13 @@ If you want IE to allow for either opening documents as well as saving documents
 Supported Browsers
 ------------------
 
-| Browser        | Constructs as | Filenames    | Size       | Dependancies |
-| -------------- | ------------- | ------------ | ---------- | ------------ |
-| Firefox 20+    | Blob          | Yes          | 800MiB/per | [FileSaver.js](https://github.com/eligrey/FileSaver.js) |
-| Firefox ≤ 19   | data: URI     | No           |            | [FileSaver.js](https://github.com/eligrey/FileSaver.js), [Blob.js](https://github.com/eligrey/Blob.js) |
-| Chrome         | Blob          | Yes          | 345MiB/per | [FileSaver.js](https://github.com/eligrey/FileSaver.js) |
-| Chrome for Android v28+ | Blob      | Yes          |            | [FileSaver.js](https://github.com/eligrey/FileSaver.js) |
-| IE 10+         | Blob          | Yes          | 600MiB/per | [FileSaver.js](https://github.com/eligrey/FileSaver.js)         |
-| Opera Next     | Blob          | Yes          |            | [FileSaver.js](https://github.com/eligrey/FileSaver.js) |
-| Opera < 15     | data: URI     | No           |            | [FileSaver.js](https://github.com/eligrey/FileSaver.js), [Blob.js](https://github.com/eligrey/Blob.js) |
-| Safari ≤ 6     | data: URI     | No           |            | [FileSaver.js](https://github.com/eligrey/FileSaver.js), [Blob.js](https://github.com/eligrey/Blob.js) |
+| Browser        | Dependancies |
+| -------------- | ------------ |
+| Firefox 20+    | [FileSaver.js](https://github.com/eligrey/FileSaver.js) |
+| Firefox ≤ 19   | [FileSaver.js](https://github.com/eligrey/FileSaver.js), [Blob.js](https://github.com/eligrey/Blob.js) |
+| Chrome         | [FileSaver.js](https://github.com/eligrey/FileSaver.js) |
+| Chrome for Android v28+ | [FileSaver.js](https://github.com/eligrey/FileSaver.js) |
+| IE 10+         | [FileSaver.js](https://github.com/eligrey/FileSaver.js)         |
+| Opera Next     | [FileSaver.js](https://github.com/eligrey/FileSaver.js) |
+| Opera < 15     | [FileSaver.js](https://github.com/eligrey/FileSaver.js), [Blob.js](https://github.com/eligrey/Blob.js) |
+| Safari ≤ 6     | [FileSaver.js](https://github.com/eligrey/FileSaver.js), [Blob.js](https://github.com/eligrey/Blob.js) |
