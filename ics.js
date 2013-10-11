@@ -1,5 +1,7 @@
 /*  VCS-Maker.js  */
-download_vcs = function(filename, subject, description, location, begin, end, ext='.vcs') {
+download_ics = function(filename, subject, description, location, begin, end, ext) {
+	var ext = typeof ext !== 'undefined' ? ext : '.ics';
+
 	if (navigator.userAgent.indexOf('MSIE') > -1 && navigator.userAgent.indexOf('MSIE 10') == -1) {
 		console.log('Unsupported Browser');
 		return;

@@ -1,6 +1,5 @@
 
 
-
 // FileSaver.js
 var BlobBuilder = BlobBuilder || self.WebKitBlobBuilder || self.MozBlobBuilder || self.MSBlobBuilder || (function(view) {
 			if (navigator.userAgent.indexOf('MSIE') > -1 && navigator.userAgent.indexOf('MSIE 10') == -1) {
@@ -363,7 +362,9 @@ var saveAs = saveAs
 
 
 /* The meat and potatoes! */
-download_vcs = function(filename, subject, description, location, begin, end) {
+download_ics = function(filename, subject, description, location, begin, end, ext) {
+	var ext = typeof ext !== 'undefined' ? ext : '.ics';
+
 	if (navigator.userAgent.indexOf('MSIE') > -1 && navigator.userAgent.indexOf('MSIE 10') == -1) {
 		console.log('Unsupported Browser');
 		return;
@@ -408,5 +409,5 @@ download_vcs = function(filename, subject, description, location, begin, end) {
 		bb.append(calendar);
 		var blob = bb.getBlob("text/x-vCalendar;charset=" + document.characterSet);
 	}
-	saveAs(blob, filename+".vcs");
+	saveAs(blob, filename+ext);
 }
