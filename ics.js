@@ -34,7 +34,7 @@ var ics = function() {
 		 * @return {string} Calendar in iCalendar format
 		 */
 		'calendar' : function () {
-			return calendarStart + calendarEvents.join(SEPARATOR) + calendarEnd;
+			return calendarStart + SEPARATOR + calendarEvents.join(SEPARATOR) + calendarEnd;
 		},
 
 		/**
@@ -83,10 +83,10 @@ var ics = function() {
 		'download' : function (filename, ext) {
 			ext = (typeof ext !== 'undefined') ? ext : '.ics';
 			filename = (typeof filename !== 'undefined') ? filename : 'calendar';
-			var calendar = calendarStart + calendarEvents.join(SEPARATOR) + calendarEnd;
+			var calendar = calendarStart + SEPARATOR + calendarEvents.join(SEPARATOR) + calendarEnd;
 
 			var blob;
-			if (navigator.userAgent.indexOf('MSIE 10') > -1) { // chrome or firefox
+			if (navigator.userAgent.indexOf('MSIE 10') === -1) { // chrome or firefox
 				blob = new Blob([calendar]);
 			}
 			else  { // ie
