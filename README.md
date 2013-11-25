@@ -7,9 +7,11 @@ Now you can make calendar friendly files client-side.  It outputs .ics files, so
 
 How To Use
 ----------
-Simply use the function...
-
-    download_ics(filename, subject, description, location, begin, end);
+Simply use invoke the object and use the functions...
+	
+	var cal = ics();
+	cal.addEvent(subject, description, location, begin, end);
+    cal.download(filename);
 
 `begin` and `end` need to be formatted in a way that is friendly to `Date()`
 
@@ -19,7 +21,11 @@ Example
 * **[Demo](http://htmlpreview.github.io/?https://github.com/nwcell/ics.js/blob/master/demo/demo.html)**
 
 ```
-<a href="javascript:download_ics('demo', 'Demo Event', 'This is an awesome demo event', 'Sexy Land, AK', '8/7/2013', '8/9/2013')">Demo</a>
+<script>
+	var cal = ics();
+	cal.addEvent('Demo Event', 'This is an awesome demo event', 'Nome, AK', '8/7/2013', '8/9/2013');
+</script>
+<a href="javascript:cal.download()">Demo</a>
 ```
 
 

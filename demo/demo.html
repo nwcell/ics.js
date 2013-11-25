@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <head>
-	<script type="text/javascript" async="" src="ics-min.js"></script>
+	<script type="text/javascript" src="../bower_components/FileSaver/FileSaver.js"></script>
+	<script type="text/javascript" src="../bower_components/Blob.js/Blob.js"></script>
+	<script type="text/javascript" src="../ics.min.js"></script>
+	<script type="text/javascript" src="demo.js"></script>
 	<style>
 	html, body {
 		height: 100%;
@@ -44,7 +47,7 @@
 </head>
 <body>
 	<div class="wrap">
-		<a href="javascript:download_ics('demo', 'Demo Event', 'This is an awesome demo event', 'Sexy Land, AK', '8/7/2013', '8/9/2013')">Demo Event</a>
+		<a href="javascript:cal.download('christmas')">Download iCal</a>
+		Look at the console too!
 	</div>
-</body>
 </html>
