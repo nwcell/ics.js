@@ -7,17 +7,18 @@ module.exports = function(grunt) {
         separator: ';'
       },
       dist: {
-        src: ['ics.js'],
-        dest: '<%= pkg.name %>.js'
+        src: ['bower_components/Blob.js/Blob.js', 'bower_components/FileSaver/FileSaver.js', 'ics.js'],
+        dest: 'ics.deps.min.js'
       }
     },
     uglify: {
       options: {
-        banner: '/*! <%= pkg.name %> <%= grunt.template.today("mm-dd-yyyy") %> */\n'
+        banner: '/*! <%= pkg.name %> <%= grunt.template.today() %> */\n'
       },
       dist: {
         files: {
-          'ics.min.js': ['ics.js']
+          'ics.min.js': ['ics.js'],
+          'ics.deps.min.js': ['ics.deps.min.js'] 
         }
       }
     },
@@ -51,6 +52,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask('test', ['jshint', 'qunit']);
 
-  grunt.registerTask('default', ['jshint', 'qunit', 'uglify']);
+  grunt.registerTask('default', ['jshint', 'qunit', 'concat', 'uglify']);
 
 };
