@@ -1,13 +1,12 @@
 {
   "name": "ics.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A browser firendly .ics/.vcs file generator written entirely in javascript",
   "main": "icsjs",
   "dependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-jshint": "~0.7.2",
-    "grunt-contrib-qunit": "~0.3.0",
     "grunt-contrib-uglify": "~0.2.7",
     "grunt-mocha": "~0.4.6"
   },

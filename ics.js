@@ -1,7 +1,4 @@
-/* global saveAs */
-/* global Blob */
-/* global BlobBuilder */
-/* global console */
+/* global saveAs, Blob, BlobBuilder, console */
 /* exported ics */
 
 var ics = function() {
