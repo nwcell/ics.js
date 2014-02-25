@@ -19,7 +19,7 @@ Example
 * **[Demo](http://htmlpreview.github.io/?https://github.com/nwcell/ics.js/blob/master/demo/demo.html)**
 
 ```
-<a href="javascript:download_ics('demo', 'Demo Event', 'This is an awesome demo event', 'Sexy Land, AK', '8/7/2013', '8/9/2013')">Demo</a>
+<a href="javascript:download_ics('demo', 'Demo Event', 'This is an awesome demo event. Won't you go to Sexy Land?', 'Sexy Land, AK', 'Tue Feb 25 2014 09:30:00 GMT-0600 (CST)', 'Tue Feb 25 2014 10:30:00 GMT-0600 (CST)')">Demo</a>
 ```
 
 

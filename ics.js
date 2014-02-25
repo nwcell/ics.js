@@ -14,14 +14,18 @@ download_ics = function(filename, subject, description, location, begin, end, ex
 	var end_date = new Date(end);
 
 	var start_year = ("0000" + (start_date.getFullYear().toString())).slice(-4);
-	var start_month = ("00" + (start_date.getMonth().toString())).slice(-2);
+	var start_month = ("00" + ((start_date.getMonth()+1).toString())).slice(-2);
 	var start_day = ("00" + (start_date.getDate().toString())).slice(-2);
-	var start = start_year + start_month + start_day;
+	var start_hour = ("00" + (start_date.getHours().toString())).slice(-2);
+	var start_minute = ("00" + (start_date.getMinutes().toString())).slice(-2);
+	var start = start_year + start_month + start_day + "T" + start_hour + start_minute + "00";
 
 	var end_year = ("0000" + (end_date.getFullYear().toString())).slice(-4);
-	var end_month = ("00" + (end_date.getMonth().toString())).slice(-2);
-	var end_day = ("00" + ((end_date.getDate()+1).toString())).slice(-2);
-	var end = end_year + end_month + end_day;
+	var end_month = ("00" + ((end_date.getMonth()+1).toString())).slice(-2);
+	var end_day = ("00" + ((end_date.getDate()).toString())).slice(-2);
+	var end_hour = ("00" + (end_date.getHours().toString())).slice(-2);
+	var end_minute = ("00" + (end_date.getMinutes().toString())).slice(-2);
+	var end = end_year + end_month + end_day + "T" + end_hour + end_minute + "00";
 
 	var calendar = [
 		"BEGIN:VCALENDAR",
@@ -29,10 +33,10 @@ download_ics = function(filename, subject, description, location, begin, end, ex
 		"BEGIN:VEVENT",
 		"CLASS:PUBLIC",
 		"DESCRIPTION:"+description,
-		"DTSTART;VALUE=DATE:"+start,
-		"DTEND;VALUE=DATE:"+end,
+		"DTSTART:"+start,
+		"DTEND:"+end,
 		"LOCATION:"+address,
-		"SUMMARY;LANGUAGE=en-us:"+subject,
+		"SUMMARY:"+subject,
 		"TRANSP:TRANSPARENT",
 		"END:VEVENT",
 		"END:VCALENDAR"
