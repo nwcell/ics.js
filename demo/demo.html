@@ -40,12 +40,16 @@
 		background-color: #428bca;
 		border-color: #357ebd;
 		font-family: sans-serif;
+		width: 120px;
 	}
 	</style>
 </head>
 <body>
 	<div class="wrap">
-		<a href="javascript:cal.download('christmas')">Download iCal</a>
-		Look at the console too!
+		<a href="javascript:cal_single.download('Awesome Day')">Single Event</a>
+		<br>
+		<a href="javascript:cal.download('Holidays')">Multiple Events</a>
+		<br>
+		<a href="javascript:makelogs(cal)">Console Output</a>
 	</div>
 </html>

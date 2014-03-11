@@ -1,8 +1,8 @@
 {
   "name": "ics.js",
   "main": "ics.js",
-  "version": "0.1.1",
-  "homepage": "https://github.com/khornberg/ics.js",
+  "version": "0.1.2",
+  "homepage": "https://github.com/nwcell/ics.js",
   "contributors": [
     "Travis Krause <travis@codeforemen.com>",
     "Kyle Hornberg <kyle.hornberg@gmail.com>"

@@ -8,9 +8,10 @@ Now you can make calendar friendly files client-side.  It outputs .ics files, so
 How To Use
 ----------
 Simply use invoke the object and use the functions...
-	
+
 	var cal = ics();
 	cal.addEvent(subject, description, location, begin, end);
+	cal.addEvent(subject, description, location, begin, end); // yes, you can have multiple events :-)
     cal.download(filename);
 
 `begin` and `end` need to be formatted in a way that is friendly to `Date()`
@@ -52,3 +53,9 @@ Supported Browsers
 | Opera Next     | [FileSaver.js](https://github.com/eligrey/FileSaver.js) |
 | Opera < 15     | [FileSaver.js](https://github.com/eligrey/FileSaver.js), [Blob.js](https://github.com/eligrey/Blob.js) |
 | Safari ≤ 6     | [FileSaver.js](https://github.com/eligrey/FileSaver.js), [Blob.js](https://github.com/eligrey/Blob.js) |
+
+
+Credits
+------------------
+* [Travis Krause](https://github.com/nwcell): Me
+* [Kyle Hornberg](https://github.com/khornberg): Added multi event functionality and made everything a package firendly
