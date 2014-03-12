@@ -24,7 +24,8 @@ Example
 ```
 <script>
 	var cal = ics();
-	cal.addEvent('Demo Event', 'This is an awesome demo event', 'Nome, AK', '8/7/2013', '8/9/2013');
+	cal.addEvent('Demo Event', 'This is an all day event', 'Nome, AK', '8/7/2013', '8/7/2013');
+	cal.addEvent('Demo Event', 'This is thirty minut event', 'Nome, AK', '8/7/2013 5:30 pm', '8/9/2013 6:00 pm');
 </script>
 <a href="javascript:cal.download()">Demo</a>
 ```
@@ -38,7 +39,7 @@ The tool uses 2 libraries from the following projects:
 
 I've compressed them and included them into the source for the normal file.  Other variations are available in the repo.
 
-If you want IE to allow for either opening documents as well as saving documents, you can use my fork of FileSaver.js (https://github.com/nwcell/FileSaver.js)
+If you want IE to allow for either opening documents as well as saving documents, you can use my fork of FileSaver.js (https://github.com/nwcell/FileSaver.js)...  Though you honestly are probebly best off using their main.
 
 Supported Browsers
 ------------------
