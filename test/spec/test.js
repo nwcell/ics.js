@@ -41,5 +41,17 @@
                 assert.strictEqual(cal.events()[2], 'BEGIN:VEVENT\nCLASS:PUBLIC\nDESCRIPTION:What isn\'t is\nDTSTART;VALUE=DATE:20140401T000000\nDTEND;VALUE=DATE:20140401T000000\nLOCATION:America\nSUMMARY;LANGUAGE=en-us:April Fools Day\nTRANSP:TRANSPARENT\nEND:VEVENT');
             });
         });
+
+        describe('Recurring Events', function () {
+          it('should add recurring events using frequency and until', function () {
+            cal.addEvent('Soccer Practice', 'Practice kicking the ball in the net!  YAYY!!', 'Soccer field', '08/18/2014', '09/18/2014', {freq: 'WEEKLY', until: '08/18/2014'});
+            assert.strictEqual(cal.events()[3], 'BEGIN:VEVENT\nCLASS:PUBLIC\nDESCRIPTION:Practice kicking the ball in the net!  YAYY!!\nDTSTART;VALUE=DATE:20140818T000000\nRRULE:FREQ=WEEKLY;UNTIL=20140818T000000Z\nDTEND;VALUE=DATE:20140918T000000\nLOCATION:Soccer field\nSUMMARY;LANGUAGE=en-us:Soccer Practice\nTRANSP:TRANSPARENT\nEND:VEVENT');
+          });
+
+          it('should add recurring events using interval and count', function () {
+            cal.addEvent('Soccer Practice', 'Practice kicking the ball in the net!  YAYY!!', 'Soccer field', '08/18/2014', '09/18/2014', {freq: 'WEEKLY', interval: 2, count: 10});
+            assert.strictEqual(cal.events()[4], 'BEGIN:VEVENT\nCLASS:PUBLIC\nDESCRIPTION:Practice kicking the ball in the net!  YAYY!!\nDTSTART;VALUE=DATE:20140818T000000\nRRULE:FREQ=WEEKLY;INTERVAL=2;COUNT=10\nDTEND;VALUE=DATE:20140918T000000\nLOCATION:Soccer field\nSUMMARY;LANGUAGE=en-us:Soccer Practice\nTRANSP:TRANSPARENT\nEND:VEVENT');
+          });
+        });
     });
 })();
