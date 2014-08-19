@@ -42,7 +42,7 @@ var ics = function() {
          * @param  {string} begin       Beginning date of event
          * @param  {string} stop        Ending date of event
          */
-        'addEvent': function(subject, description, location, begin, stop) {
+        'addEvent': function(subject, description, location, begin, stop, rrule) {
             // I'm not in the mood to make these optional... So they are all required
             if (typeof subject === 'undefined' ||
                 typeof description === 'undefined' ||
@@ -51,6 +51,33 @@ var ics = function() {
                 typeof stop === 'undefined'
             ) {
                 return false;
+            }
+
+            // validate rrule
+            if (rrule) {
+              if (!rrule.rule) {
+                if (rrule.freq !== 'YEARLY' && rrule.freq !== 'MONTHLY' && rrule.freq !== 'WEEKLY' && rrule.freq !== 'DAILY') {
+                  throw "Recurrence rule frequency must be provided and be one of the following: 'YEARLY', 'MONTHLY', 'WEEKLY', or 'DAILY'";
+                }
+
+                if (rrule.until) {
+                  if (isNaN(Date.parse(rrule.until))) {
+                    throw "Recurrence rule 'until' must be a valid date string";
+                  }
+                }
+
+                if (rrule.interval) {
+                  if (isNaN(parseInt(rrule.interval))) {
+                    throw "Recurrence rule 'interval' must be an integer";
+                  }
+                }
+
+                if (rrule.count) {
+                  if (isNaN(parseInt(rrule.count))) {
+                    throw "Recurrence rule 'count' must be an integer";
+                  }
+                }
+              }
             }
 
             //TODO add time and time zone? use moment to format?
@@ -82,6 +109,29 @@ var ics = function() {
             var start = start_year + start_month + start_day + start_time;
             var end = end_year + end_month + end_day + end_time;
 
+            // recurrence rule vars
+            var rruleString;
+            if (rrule) {
+              if (rrule.rule) {
+                rruleString = rrule.rule;
+              } else {
+                rruleString = 'RRULE:FREQ=' + rrule.freq;
+
+                if (rrule.until) {
+                  var uDate = new Date(Date.parse(rrule.until)).toISOString();
+                  rruleString += ';UNTIL=' + uDate.substring(0, uDate.length - 13).replace(/[-]/g, '') + '000000Z';
+                }
+
+                if (rrule.interval) {
+                  rruleString += ';INTERVAL=' + rrule.interval;
+                }
+
+                if (rrule.count) {
+                  rruleString += ';COUNT=' + rrule.count;
+                }
+              }
+            }
+
             var calendarEvent = [
                 'BEGIN:VEVENT',
                 'CLASS:PUBLIC',
@@ -92,7 +142,13 @@ var ics = function() {
                 'SUMMARY;LANGUAGE=en-us:' + subject,
                 'TRANSP:TRANSPARENT',
                 'END:VEVENT'
-            ].join(SEPARATOR);
+            ];
+
+            if (rruleString) {
+              calendarEvent.splice(4, 0, rruleString);
+            }
+
+            calendarEvent = calendarEvent.join(SEPARATOR);
 
             calendarEvents.push(calendarEvent);
             return calendarEvent;
