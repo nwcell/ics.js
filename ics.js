@@ -158,12 +158,15 @@ var ics = function() {
               }
             }
 
+            var stamp = new Date().toISOString();
+
             var calendarEvent = [
                 'BEGIN:VEVENT',
                 'CLASS:PUBLIC',
                 'DESCRIPTION:' + description,
-                'DTSTART;VALUE=DATE:' + start,
-                'DTEND;VALUE=DATE:' + end,
+                'DTSTART:' + start,
+                'DTEND:' + end,
+                'DTSTAMP:' + stamp.substring(0, stamp.length - 13).replace(/[-]/g, '') + '000000Z',
                 'LOCATION:' + location,
                 'SUMMARY;LANGUAGE=en-us:' + subject,
                 'TRANSP:TRANSPARENT',
