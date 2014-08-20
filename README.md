@@ -29,6 +29,7 @@ The `rrule` object has the following properties:
 - `until` : A date string representing the date on which to end repitition.  Must be friendly to `Date()`
 - `count` : Alternative to until.  Repeat the event `count` times.  Must be an integer
 - `interval` : The interval of `freq` to recur at.  For example, if `freq` is `WEEKLY` and `interval` is `2`, the event will repeat every 2 weeks.  Must be an integer.
+- `byday` : Which days of the week the event is to occur. An array containing any of `SU`, `MO`, `TU`, `WE`, `TH`, `FR`, `SA`.
 
 The four properties described above are not exhaustive of recurrence rule capabilities.  If extra functionality is required, you can set the `rrule.rule` property to a full recurrence rule string.  In this case, none of the four properties described above are necessary.  See [this page](http://www.kanzaki.com/docs/ical/rrule.html) for a description of recurrence rules.
 

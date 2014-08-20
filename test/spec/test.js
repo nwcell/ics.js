@@ -52,6 +52,16 @@
             cal.addEvent('Soccer Practice', 'Practice kicking the ball in the net!  YAYY!!', 'Soccer field', '08/18/2014', '09/18/2014', {freq: 'WEEKLY', interval: 2, count: 10});
             assert.strictEqual(cal.events()[4], 'BEGIN:VEVENT\nCLASS:PUBLIC\nDESCRIPTION:Practice kicking the ball in the net!  YAYY!!\nDTSTART;VALUE=DATE:20140818T000000\nRRULE:FREQ=WEEKLY;INTERVAL=2;COUNT=10\nDTEND;VALUE=DATE:20140918T000000\nLOCATION:Soccer field\nSUMMARY;LANGUAGE=en-us:Soccer Practice\nTRANSP:TRANSPARENT\nEND:VEVENT');
           });
+
+          it('should add recurring events using interval and until and byday', function () {
+            cal.addEvent('Soccer Practice', 'Practice kicking the ball in the net!  YAYY!!', 'Soccer field', '08/18/2014', '09/18/2014', {freq: 'WEEKLY', interval: 1, until: '08/18/2014', byday: ['MO','WE','FR']});
+            assert.strictEqual(cal.events()[5], 'BEGIN:VEVENT\nCLASS:PUBLIC\nDESCRIPTION:Practice kicking the ball in the net!  YAYY!!\nDTSTART;VALUE=DATE:20140818T000000\nRRULE:FREQ=WEEKLY;UNTIL=20140818T000000Z;INTERVAL=1;BYDAY=MO,WE,FR\nDTEND;VALUE=DATE:20140918T000000\nLOCATION:Soccer field\nSUMMARY;LANGUAGE=en-us:Soccer Practice\nTRANSP:TRANSPARENT\nEND:VEVENT');
+          });
+
+          it('should add recurring events using interval and until and ignore duplicates in byday array', function () {
+            cal.addEvent('Soccer Practice', 'Practice kicking the ball in the net!  YAYY!!', 'Soccer field', '08/18/2014', '09/18/2014', {freq: 'WEEKLY', interval: 1, until: '08/18/2014', byday: ['MO', 'WE', 'MO']});
+            assert.strictEqual(cal.events()[6], 'BEGIN:VEVENT\nCLASS:PUBLIC\nDESCRIPTION:Practice kicking the ball in the net!  YAYY!!\nDTSTART;VALUE=DATE:20140818T000000\nRRULE:FREQ=WEEKLY;UNTIL=20140818T000000Z;INTERVAL=1;BYDAY=MO,WE\nDTEND;VALUE=DATE:20140918T000000\nLOCATION:Soccer field\nSUMMARY;LANGUAGE=en-us:Soccer Practice\nTRANSP:TRANSPARENT\nEND:VEVENT');
+          });
         });
     });
 })();

@@ -16,6 +16,7 @@ var ics = function() {
         'VERSION:2.0'
     ].join(SEPARATOR);
     var calendarEnd = SEPARATOR + 'END:VCALENDAR';
+    var BYDAY_VALUES = ['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'];
 
     return {
         /**
@@ -77,6 +78,27 @@ var ics = function() {
                     throw "Recurrence rule 'count' must be an integer";
                   }
                 }
+
+                if (typeof rrule.byday !== 'undefined') {
+                  if ( (Object.prototype.toString.call(rrule.byday) !== '[object Array]') ) {
+                    throw "Recurrence rule 'byday' must be an array";
+                  }
+
+                  if (rrule.byday.length > 7) {
+                    throw "Recurrence rule 'byday' array must not be longer than the 7 days in a week";
+                  }
+
+                  // Filter any possible repeats
+                  rrule.byday = rrule.byday.filter(function(elem, pos) {
+                    return rrule.byday.indexOf(elem) == pos;
+                  });
+
+                  for (var d in rrule.byday) {
+                    if (BYDAY_VALUES.indexOf(rrule.byday[d]) < 0) {
+                      throw "Recurrence rule 'byday' values must include only the following: 'SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'";
+                    }
+                  }
+                }
               }
             }
 
@@ -128,6 +150,10 @@ var ics = function() {
 
                 if (rrule.count) {
                   rruleString += ';COUNT=' + rrule.count;
+                }
+
+                if (rrule.byday && rrule.byday.length > 0) {
+                  rruleString += ';BYDAY=' + rrule.byday.join(',');
                 }
               }
             }
