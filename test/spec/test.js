@@ -42,4 +42,18 @@
             });
         });
     });
+    describe('Issues #8 validation', function() {
+        describe('Event with Times that are different', function(){
+            it('should have times even if the start and end time are both exactly on the hour.', function() {
+                cal.addEvent('Boxing Day','Did your boss give you a present today?', 'Commonwealth nations', '12/26/2014 12:00:00 AM', '12/26/2014 11:00:00 PM');
+                assert.strictEqual(cal.events()[3], 'BEGIN:VEVENT\nCLASS:PUBLIC\nDESCRIPTION:Did your boss give you a present today?\nDTSTART;VALUE=DATE:20141226T000000\nDTEND;VALUE=DATE:20141226T230000\nLOCATION:Commonwealth nations\nSUMMARY;LANGUAGE=en-us:Boxing Day\nTRANSP:TRANSPARENT\nEND:VEVENT');
+            });
+        });
+        describe('Event with Times that are the SAME', function() {
+            it('should have NO times since the start date/time is the same as the end date/time', function() {
+                cal.addEvent('Boxing Day','Did your boss give you a present today?', 'Commonwealth nations', '12/26/2014 12:00:00 AM', '12/26/2014 12:00:00 AM');
+                assert.strictEqual(cal.events()[4], 'BEGIN:VEVENT\nCLASS:PUBLIC\nDESCRIPTION:Did your boss give you a present today?\nDTSTART;VALUE=DATE:20141226\nDTEND;VALUE=DATE:20141226\nLOCATION:Commonwealth nations\nSUMMARY;LANGUAGE=en-us:Boxing Day\nTRANSP:TRANSPARENT\nEND:VEVENT');
+            });
+        });
+    });
 })();

@@ -51,7 +51,7 @@ var ics = function() {
                 typeof stop === 'undefined'
             ) {
                 return false;
-            };
+            }
 
             //TODO add time and time zone? use moment to format?
             var start_date = new Date(begin);
@@ -62,21 +62,22 @@ var ics = function() {
             var start_day = ("00" + ((start_date.getDate()).toString())).slice(-2);
             var start_hours = ("00" + (start_date.getHours().toString())).slice(-2);
             var start_minutes = ("00" + (start_date.getMinutes().toString())).slice(-2);
-            var start_seconds = ("00" + (start_date.getMinutes().toString())).slice(-2);
+            var start_seconds = ("00" + (start_date.getSeconds().toString())).slice(-2);
 
             var end_year = ("0000" + (end_date.getFullYear().toString())).slice(-4);
             var end_month = ("00" + ((end_date.getMonth() + 1).toString())).slice(-2);
             var end_day = ("00" + ((end_date.getDate()).toString())).slice(-2);
             var end_hours = ("00" + (end_date.getHours().toString())).slice(-2);
             var end_minutes = ("00" + (end_date.getMinutes().toString())).slice(-2);
-            var end_seconds = ("00" + (end_date.getMinutes().toString())).slice(-2);
+            var end_seconds = ("00" + (end_date.getSeconds().toString())).slice(-2);
 
             // Since some calendars don't add 0 second events, we need to remove time if there is none...
-            var start_time = '';
-            var end_time = '';
-            if (start_minutes + start_seconds + end_minutes + end_seconds != 0) {
-                start_time = 'T' + start_hours + start_minutes + start_seconds;
-                end_time = 'T' + end_hours + end_minutes + end_seconds;
+            var start_time = 'T' + start_hours + start_minutes + start_seconds;
+            var end_time = 'T' + end_hours + end_minutes + end_seconds;
+
+            if(end_date - start_date === 0){
+                start_time = '';
+                end_time = '';
             }
 
             var start = start_year + start_month + start_day + start_time;
