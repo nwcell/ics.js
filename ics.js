@@ -74,7 +74,7 @@ var ics = function() {
             // Since some calendars don't add 0 second events, we need to remove time if there is none...
             var start_time = '';
             var end_time = '';
-            if (start_minutes + start_seconds + end_minutes + end_seconds != 0) {
+            if (start_hours + start_minutes + start_seconds + end_hours + end_minutes + end_seconds != 0) {
                 start_time = 'T' + start_hours + start_minutes + start_seconds;
                 end_time = 'T' + end_hours + end_minutes + end_seconds;
             }
@@ -86,8 +86,10 @@ var ics = function() {
                 'BEGIN:VEVENT',
                 'CLASS:PUBLIC',
                 'DESCRIPTION:' + description,
-                'DTSTART;VALUE=DATE:' + start,
-                'DTEND;VALUE=DATE:' + end,
+                'DTSTART:' + start,
+                'DTEND:' + end,
+                //'DTSTART;VALUE=DATE:' + start,
+                //'DTEND;VALUE=DATE:' + end,
                 'LOCATION:' + location,
                 'SUMMARY;LANGUAGE=en-us:' + subject,
                 'TRANSP:TRANSPARENT',
