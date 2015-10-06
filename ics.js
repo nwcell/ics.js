@@ -54,8 +54,11 @@ var ics = function() {
             };
 
             //TODO add time and time zone? use moment to format?
-            var start_date = new Date(begin);
-            var end_date = new Date(stop);
+            var offset = new Date().getTimezoneOffset();
+            var tempStartDate = new Date(begin).getTime() + offset*60*1000
+            var start_date = new Date(tempStartDate);
+            var tempEndDate = new Date(begin).getTime() + offset*60*1000
+            var end_date = new Date(tempEndDate);
 
             var start_year = ("0000" + (start_date.getFullYear().toString())).slice(-4);
             var start_month = ("00" + ((start_date.getMonth() + 1).toString())).slice(-2);
