@@ -163,7 +163,7 @@ var ics = function() {
             var calendarEvent = [
                 'BEGIN:VEVENT',
                 'CLASS:PUBLIC',
-                'DESCRIPTION:' + description,
+                'DESCRIPTION:' + description.replace('\r\n', '\\n'),
                 'DTSTART:' + start,
                 'DTEND:' + end,
                 'DTSTAMP:' + stamp.substring(0, stamp.length - 13).replace(/[-]/g, '') + '000000Z',
