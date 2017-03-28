@@ -72,11 +72,11 @@ var ics = function() {
             var end_seconds = ("00" + (end_date.getSeconds().toString())).slice(-2);
 
             // Since some calendars don't add 0 second events, we need to remove time if there is none...
-            var start_time = '';
-            var end_time = '';
-            if (start_hours + start_minutes + start_seconds + end_hours + end_minutes + end_seconds !== 0) {
-                start_time = 'T' + start_hours + start_minutes + start_seconds;
-                end_time = 'T' + end_hours + end_minutes + end_seconds;
+            var start_time = 'T' + start_hours + start_minutes + start_seconds;
+            var end_time = 'T' + end_hours + end_minutes + end_seconds;
+            if (start_time === 'T000000' && end_time === 'T000000') {
+                start_time = '';
+                end_time = '';
             }
 
             var start = start_year + start_month + start_day + start_time;
