@@ -1,0 +1,81 @@
+<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Jasmine Spec Runner</title>
+    <script type="text/javascript" src="file:///C:/Users/sacha.bertschi/AppData/Local/Microsoft/VisualStudio/14.0/Extensions/cpzvm4zd.nur/ChutzpahTestHarnessFiles/chutzpah_boot.js"></script>
+<link rel="stylesheet" type="text/css" href="file:///C:/Users/sacha.bertschi/AppData/Local/Microsoft/VisualStudio/14.0/Extensions/cpzvm4zd.nur/ChutzpahTestHarnessFiles/jasmine/v2/jasmine.css"/>
+<script type="text/javascript" src="file:///C:/Users/sacha.bertschi/AppData/Local/Microsoft/VisualStudio/14.0/Extensions/cpzvm4zd.nur/ChutzpahTestHarnessFiles/jasmine/v2/jasmine.js"></script>
+<script type="text/javascript" src="file:///C:/Users/sacha.bertschi/AppData/Local/Microsoft/VisualStudio/14.0/Extensions/cpzvm4zd.nur/ChutzpahTestHarnessFiles/jasmine/v2/jasmine-html.js"></script>
+<script type="text/javascript" src="file:///C:/Users/sacha.bertschi/AppData/Local/Microsoft/VisualStudio/14.0/Extensions/cpzvm4zd.nur/ChutzpahTestHarnessFiles/jasmine/v2/boot.js"></script>
+<link rel="shortcut icon" type="image/png" href="file:///C:/Users/sacha.bertschi/AppData/Local/Microsoft/VisualStudio/14.0/Extensions/cpzvm4zd.nur/ChutzpahTestHarnessFiles/jasmine/v2/jasmine_favicon.png"/>
+
+    
+    
+    
+    <script type="text/javascript" src="file:///G:/InetExp/ics_calendar/ics.js-master/test/spec/test.js"></script>
+
+    <script type="text/javascript">
+
+        (function () {
+
+            var amdTestPaths = [];
+            window.chutzpah.boot(amdTestPaths);
+
+            if (window.chutzpah.usingModuleLoader) {
+                if("") {
+                    window.chutzpah.amdConfig({
+                        baseUrl: ""
+                    });
+                }
+
+                window.chutzpah.amdConfig({
+                    map: {
+                        '*': {
+                            
+                            }
+                    }
+                });
+
+                window.chutzpah.start = function() {
+                    window.chutzpah.amdImport(amdTestPaths, function () {
+
+                        console.log("!!_!! Stating Jasmine from AMD callback...");
+                        window.initializeJasmine();
+                    });
+                };
+
+                if(window.chutzpah.autoStart !== false) {
+                    window.chutzpah.start();
+                }
+
+            }
+            else {
+
+                window.chutzpah.start = function() {
+                    console.log("!!_!! Stating Jasmine...");
+                    window.initializeJasmine();  
+                };
+
+                var currentWindowOnload = window.onload;
+
+                window.onload = function() {
+                    if (currentWindowOnload) {
+                        currentWindowOnload();
+                    }
+
+                    if(!window.chutzpah.phantom && window.chutzpah.autoStart !== false) {
+                        console.log("!!_!! Stating Jasmine from HTML OnLoad callback...");
+                        window.chutzpah.start();
+                    }
+                };
+            }
+
+        })();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

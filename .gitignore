@@ -1,0 +1,10 @@
+node_modules/
+bower_components/
+/.vs
+/bin/Debug
+/obj/x86/Debug
+/jsCalendar.csproj
+/jsCalendar.csproj.user
+/jsCalendar.sln
+/Program.cs
+/_Chutzpah.coverage.html

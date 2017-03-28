@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+	<script type="text/javascript" src="https://rawgithub.com/nwcell/ics.js/master/ics.deps.min.js"></script>
+	<script type="text/javascript" src="https://rawgithub.com/nwcell/ics.js/master/demo/demo.js"></script>
+	<style>
+	html, body {
+		height: 100%;
+		width: 100%;
+	}
+	.wrap {
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;
+		height: 50px;
+		width: 100px;
+	}
+	a {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		display: inline-block;
+		padding: 6px 12px;
+		margin-bottom: 0;
+		font-size: 14px;
+		font-weight: normal;
+		line-height: 1.428571429;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		cursor: pointer;
+		border: 1px solid transparent;
+		border-radius: 4px;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		-o-user-select: none;
+		cursor: pointer;
+		color: #ffffff;
+		text-decoration: none;
+		font-weight: bold;
+		background-color: #428bca;
+		border-color: #357ebd;
+		font-family: sans-serif;
+		width: 120px;
+	}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<a href="javascript:cal_single.download('Awesome Day')">Single Event</a>
+		<br>
+		<a href="javascript:cal.download('Holidays')">Multiple Events</a>
+		<br>
+		<a href="javascript:makelogs(cal)">Console Output</a>
+	</div>
+</html>
