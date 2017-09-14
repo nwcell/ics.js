@@ -123,14 +123,14 @@ var ics = function(uidDomain, prodId) {
       var end_day = ("00" + ((end_date.getDate()).toString())).slice(-2);
       var end_hours = ("00" + (end_date.getHours().toString())).slice(-2);
       var end_minutes = ("00" + (end_date.getMinutes().toString())).slice(-2);
-      var end_seconds = ("00" + (end_date.getMinutes().toString())).slice(-2);
+      var end_seconds = ("00" + (end_date.getSeconds().toString())).slice(-2);
 
       var now_year = ("0000" + (now_date.getFullYear().toString())).slice(-4);
       var now_month = ("00" + ((now_date.getMonth() + 1).toString())).slice(-2);
       var now_day = ("00" + ((now_date.getDate()).toString())).slice(-2);
       var now_hours = ("00" + (now_date.getHours().toString())).slice(-2);
       var now_minutes = ("00" + (now_date.getMinutes().toString())).slice(-2);
-      var now_seconds = ("00" + (now_date.getMinutes().toString())).slice(-2);
+      var now_seconds = ("00" + (now_date.getSeconds().toString())).slice(-2);
 
       // Since some calendars don't add 0 second events, we need to remove time if there is none...
       var start_time = '';
