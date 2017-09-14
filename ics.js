@@ -1,7 +1,7 @@
 /* global saveAs, Blob, BlobBuilder, console */
 /* exported ics */
 
-var ics = function( uidDomain, prodId ) {
+var ics = function(uidDomain, prodId) {
   'use strict';
 
   if (navigator.userAgent.indexOf('MSIE') > -1 && navigator.userAgent.indexOf('MSIE 10') == -1) {
@@ -16,7 +16,7 @@ var ics = function( uidDomain, prodId ) {
   var calendarEvents = [];
   var calendarStart = [
     'BEGIN:VCALENDAR',
-  'PRODID:'+prodId,
+    'PRODID:' + prodId,
     'VERSION:2.0'
   ].join(SEPARATOR);
   var calendarEnd = SEPARATOR + 'END:VCALENDAR';
@@ -47,7 +47,7 @@ var ics = function( uidDomain, prodId ) {
      * @param  {string} begin       Beginning date of event
      * @param  {string} stop        Ending date of event
      */
-    'addEvent': function(subject, description, location, begin, stop, rrule) {
+    'addEvent': function(subject, description, location, begin, stop, rule) {
       // I'm not in the mood to make these optional... So they are all required
       if (typeof subject === 'undefined' ||
         typeof description === 'undefined' ||
@@ -58,58 +58,58 @@ var ics = function( uidDomain, prodId ) {
         return false;
       }
 
-      // validate rrule
-      if (rrule) {
-        if (!rrule.rule) {
-        if (rrule.freq !== 'YEARLY' && rrule.freq !== 'MONTHLY' && rrule.freq !== 'WEEKLY' && rrule.freq !== 'DAILY') {
-          throw "Recurrence rule frequency must be provided and be one of the following: 'YEARLY', 'MONTHLY', 'WEEKLY', or 'DAILY'";
-        }
-
-        if (rrule.until) {
-          if (isNaN(Date.parse(rrule.until))) {
-          throw "Recurrence rule 'until' must be a valid date string";
-          }
-        }
-
-        if (rrule.interval) {
-          if (isNaN(parseInt(rrule.interval))) {
-          throw "Recurrence rule 'interval' must be an integer";
-          }
-        }
-
-        if (rrule.count) {
-          if (isNaN(parseInt(rrule.count))) {
-          throw "Recurrence rule 'count' must be an integer";
-          }
-        }
-
-        if (typeof rrule.byday !== 'undefined') {
-          if ( (Object.prototype.toString.call(rrule.byday) !== '[object Array]') ) {
-          throw "Recurrence rule 'byday' must be an array";
+      // validate rule
+      if (rule) {
+        if (!rule.rule) {
+          if (rule.freq !== 'YEARLY' && rule.freq !== 'MONTHLY' && rule.freq !== 'WEEKLY' && rule.freq !== 'DAILY') {
+            throw "Recurrence rule frequency must be provided and be one of the following: 'YEARLY', 'MONTHLY', 'WEEKLY', or 'DAILY'";
           }
 
-          if (rrule.byday.length > 7) {
-          throw "Recurrence rule 'byday' array must not be longer than the 7 days in a week";
+          if (rule.until) {
+            if (isNaN(Date.parse(rule.until))) {
+              throw "Recurrence rule 'until' must be a valid date string";
+            }
           }
 
-          // Filter any possible repeats
-          rrule.byday = rrule.byday.filter(function(elem, pos) {
-          return rrule.byday.indexOf(elem) == pos;
-          });
+          if (rule.interval) {
+            if (isNaN(parseInt(rule.interval))) {
+              throw "Recurrence rule 'interval' must be an integer";
+            }
+          }
 
-          for (var d in rrule.byday) {
-          if (BYDAY_VALUES.indexOf(rrule.byday[d]) < 0) {
-            throw "Recurrence rule 'byday' values must include only the following: 'SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'";
+          if (rule.count) {
+            if (isNaN(parseInt(rule.count))) {
+              throw "Recurrence rule 'count' must be an integer";
+            }
           }
+
+          if (typeof rule.byday !== 'undefined') {
+            if ((Object.prototype.toString.call(rule.byday) !== '[object Array]')) {
+              throw "Recurrence rule 'byday' must be an array";
+            }
+
+            if (rule.byday.length > 7) {
+              throw "Recurrence rule 'byday' array must not be longer than the 7 days in a week";
+            }
+
+            // Filter any possible repeats
+            rule.byday = rule.byday.filter(function(elem, pos) {
+              return rule.byday.indexOf(elem) == pos;
+            });
+
+            for (var d in rule.byday) {
+              if (BYDAY_VALUES.indexOf(rule.byday[d]) < 0) {
+                throw "Recurrence rule 'byday' values must include only the following: 'SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'";
+              }
+            }
           }
-        }
         }
       }
 
       //TODO add time and time zone? use moment to format?
       var start_date = new Date(begin);
       var end_date = new Date(stop);
-    var now_date = new Date();
+      var now_date = new Date();
 
       var start_year = ("0000" + (start_date.getFullYear().toString())).slice(-4);
       var start_month = ("00" + ((start_date.getMonth() + 1).toString())).slice(-2);
@@ -139,36 +139,36 @@ var ics = function( uidDomain, prodId ) {
         start_time = 'T' + start_hours + start_minutes + start_seconds;
         end_time = 'T' + end_hours + end_minutes + end_seconds;
       }
-    var now_time = 'T' + now_hours + now_minutes + now_seconds;
+      var now_time = 'T' + now_hours + now_minutes + now_seconds;
 
       var start = start_year + start_month + start_day + start_time;
       var end = end_year + end_month + end_day + end_time;
-    var now = now_year + now_month + now_day + now_time;
+      var now = now_year + now_month + now_day + now_time;
 
       // recurrence rule vars
-      var rruleString;
-      if (rrule) {
-        if (rrule.rule) {
-        rruleString = rrule.rule;
+      var ruleString;
+      if (rule) {
+        if (rule.rule) {
+          ruleString = rule.rule;
         } else {
-        rruleString = 'RRULE:FREQ=' + rrule.freq;
+          ruleString = 'rule:FREQ=' + rule.freq;
 
-        if (rrule.until) {
-          var uDate = new Date(Date.parse(rrule.until)).toISOString();
-          rruleString += ';UNTIL=' + uDate.substring(0, uDate.length - 13).replace(/[-]/g, '') + '000000Z';
-        }
+          if (rule.until) {
+            var uDate = new Date(Date.parse(rule.until)).toISOString();
+            ruleString += ';UNTIL=' + uDate.substring(0, uDate.length - 13).replace(/[-]/g, '') + '000000Z';
+          }
 
-        if (rrule.interval) {
-          rruleString += ';INTERVAL=' + rrule.interval;
-        }
+          if (rule.interval) {
+            ruleString += ';INTERVAL=' + rule.interval;
+          }
 
-        if (rrule.count) {
-          rruleString += ';COUNT=' + rrule.count;
-        }
+          if (rule.count) {
+            ruleString += ';COUNT=' + rule.count;
+          }
 
-        if (rrule.byday && rrule.byday.length > 0) {
-          rruleString += ';BYDAY=' + rrule.byday.join(',');
-        }
+          if (rule.byday && rule.byday.length > 0) {
+            ruleString += ';BYDAY=' + rule.byday.join(',');
+          }
         }
       }
 
@@ -176,7 +176,7 @@ var ics = function( uidDomain, prodId ) {
 
       var calendarEvent = [
         'BEGIN:VEVENT',
-        'UID:'+calendarEvents.length+"@"+uidDomain,
+        'UID:' + calendarEvents.length + "@" + uidDomain,
         'CLASS:PUBLIC',
         'DESCRIPTION:' + description,
         'DTSTAMP;VALUE=DATE-TIME:' + now,
@@ -188,8 +188,8 @@ var ics = function( uidDomain, prodId ) {
         'END:VEVENT'
       ];
 
-      if (rruleString) {
-        calendarEvent.splice(4, 0, rruleString);
+      if (ruleString) {
+        calendarEvent.splice(4, 0, ruleString);
       }
 
       calendarEvent = calendarEvent.join(SEPARATOR);
