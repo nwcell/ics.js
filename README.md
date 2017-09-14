@@ -17,6 +17,23 @@ Simply use invoke the object and use the functions...
 `begin` and `end` need to be formatted in a way that is friendly to `Date()`
 
 
+Recurring Events
+----------------
+Recurring events can be added with the `rrule` object.
+
+`cal.addEvent(subject, description, location, begin, end, rrule)`
+
+The `rrule` object has the following properties:
+
+- `freq` : __Required.__ The frequency of event recurrence. Can be `DAILY`, `WEEKLY`, `MONTHLY`, or `YEARLY`.
+- `until` : A date string representing the date on which to end repitition.  Must be friendly to `Date()`
+- `count` : Alternative to until.  Repeat the event `count` times.  Must be an integer
+- `interval` : The interval of `freq` to recur at.  For example, if `freq` is `WEEKLY` and `interval` is `2`, the event will repeat every 2 weeks.  Must be an integer.
+- `byday` : Which days of the week the event is to occur. An array containing any of `SU`, `MO`, `TU`, `WE`, `TH`, `FR`, `SA`.
+
+The four properties described above are not exhaustive of recurrence rule capabilities.  If extra functionality is required, you can set the `rrule.rule` property to a full recurrence rule string.  In this case, none of the four properties described above are necessary.  See [this page](http://www.kanzaki.com/docs/ical/rrule.html) for a description of recurrence rules.
+
+
 Example
 -------
 * **[Demo](http://htmlpreview.github.io/?https://github.com/nwcell/ics.js/blob/master/demo/demo.html)**
@@ -25,7 +42,7 @@ Example
 <script>
 	var cal = ics();
 	cal.addEvent('Demo Event', 'This is an all day event', 'Nome, AK', '8/7/2013', '8/7/2013');
-	cal.addEvent('Demo Event', 'This is thirty minut event', 'Nome, AK', '8/7/2013 5:30 pm', '8/9/2013 6:00 pm');
+	cal.addEvent('Demo Event', 'This is thirty minute event', 'Nome, AK', '8/7/2013 5:30 pm', '8/7/2013 6:00 pm');
 </script>
 <a href="javascript:cal.download()">Demo</a>
 ```
