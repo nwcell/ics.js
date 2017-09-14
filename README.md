@@ -36,7 +36,7 @@ The four properties described above are not exhaustive of recurrence rule capabi
 
 Example
 -------
-* **[Demo](http://htmlpreview.github.io/?https://github.com/nwcell/ics.js/blob/master/demo/demo.html)**
+* **[Demo](https://rawgit.com/nwcell/ics.js/master/demo/demo.html)**
 
 ```
 <script>
