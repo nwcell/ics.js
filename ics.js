@@ -26,8 +26,8 @@ var ics = function (uidDomain, prodId) {
 	var calendarEnd = SEPARATOR + 'END:VCALENDAR';
 	var BYDAY_VALUES = ['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'];
 	//alarm triggers 30 min prior to event, repeats 3 times at 9min interval
-	var ALARM_BEGIN = "'BEGIN:VALARM', 'TRIGGER:-PT30M', 'REPEAT:3', 'DURATION:PT09M', 'ACTION:DISPLAY', 'DESCRIPTION:'"
-	var ALARM_END = ", 'END:VALARM',"
+	var ALARM_BEGIN = ['BEGIN:VALARM', 'TRIGGER:-PT30M', 'REPEAT:3', 'DURATION:PT09M', 'ACTION:DISPLAY', 'DESCRIPTION:']
+	var ALARM_END = 'END:VALARM'
 
 		return {
 		/**
@@ -180,8 +180,6 @@ var ics = function (uidDomain, prodId) {
 
 			var stamp = new Date().toISOString();
 
-			var vAlarm = ALARM_BEGIN + description + ALARM_END;
-
 			var calendarEvent = [
 				'BEGIN:VEVENT',
 				'UID:' + calendarEvents.length + "@" + uidDomain,
@@ -193,10 +191,11 @@ var ics = function (uidDomain, prodId) {
 				'LOCATION:' + location,
 				'SUMMARY;LANGUAGE=en-us:' + subject,
 				'TRANSP:TRANSPARENT',
-				VAlarm,
-				'END:VEVENT'
+                ALARM_BEGIN.join(SEPARATOR),
+                'DESCRIPTION:' + description,
+                ALARM_END,
+                'END:VEVENT'                
 			];
-
 			if (rruleString) {
 				calendarEvent.splice(4, 0, rruleString);
 			}
