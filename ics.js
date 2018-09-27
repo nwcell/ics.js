@@ -25,8 +25,9 @@ var ics = function (uidDomain, prodId) {
 	].join(SEPARATOR);
 	var calendarEnd = SEPARATOR + 'END:VCALENDAR';
 	var BYDAY_VALUES = ['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'];
-	var alarmBegin = "'BEGIN:VALARM', 'TRIGGER:-PT30M', 'REPEAT:3', 'DURATION:PT09M', 'ACTION:DISPLAY', 'DESCRIPTION:'"
-		var alarmEnd = ", 'END:VALARM',"
+	//alarm triggers 30 min prior to event, repeats 3 times at 9min interval
+	var ALARM_BEGIN = "'BEGIN:VALARM', 'TRIGGER:-PT30M', 'REPEAT:3', 'DURATION:PT09M', 'ACTION:DISPLAY', 'DESCRIPTION:'"
+	var ALARM_END = ", 'END:VALARM',"
 
 		return {
 		/**
@@ -179,7 +180,7 @@ var ics = function (uidDomain, prodId) {
 
 			var stamp = new Date().toISOString();
 
-			var vAlarm = alarmBegin + description + alarmEnd;
+			var vAlarm = ALARM_BEGIN + description + ALARM_END;
 
 			var calendarEvent = [
 				'BEGIN:VEVENT',
