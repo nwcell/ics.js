@@ -215,6 +215,7 @@ var ics = function(uidDomain, prodId) {
       var blob;
       if (navigator.userAgent.indexOf('MSIE 10') === -1) { // chrome or firefox
         blob = new Blob([calendar]);
+        blob = blob.slice(0, blob.size, 'text/x-vCalendar;charset=' + document.characterSet);
       } else { // ie
         var bb = new BlobBuilder();
         bb.append(calendar);
