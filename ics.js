@@ -145,9 +145,16 @@ var ics = function(uidDomain, prodId) {
       var end = end_year + end_month + end_day + end_time;
       var now = now_year + now_month + now_day + now_time;
 
+      var calendarEvent = [
+        'BEGIN:VEVENT',
+        'UID:' + calendarEvents.length + "@" + uidDomain,
+        'CLASS:PUBLIC',
+        'DESCRIPTION:' + description
+      ];
+
       // recurrence rrule vars
-      var rruleString;
       if (rrule) {
+        var rruleString;
         if (rrule.rrule) {
           rruleString = rrule.rrule;
         } else {
@@ -170,27 +177,33 @@ var ics = function(uidDomain, prodId) {
             rruleString += ';BYDAY=' + rrule.byday.join(',');
           }
         }
+
+        calendarEvent.push(rruleString);
       }
 
-      var stamp = new Date().toISOString();
+      calendarEvent.push('DTSTAMP;VALUE=DATE-TIME:' + now);
 
-      var calendarEvent = [
-        'BEGIN:VEVENT',
-        'UID:' + calendarEvents.length + "@" + uidDomain,
-        'CLASS:PUBLIC',
-        'DESCRIPTION:' + description,
-        'DTSTAMP;VALUE=DATE-TIME:' + now,
-        'DTSTART;VALUE=DATE-TIME:' + start,
-        'DTEND;VALUE=DATE-TIME:' + end,
+      if (start_time !== '') {
+        calendarEvent.push('DTSTART;VALUE=DATE-TIME:' + start);
+      } else {
+        calendarEvent.push('DTSTART;VALUE=DATE:' + start);
+      }
+
+      // If start and end refer to the same day without time,
+      // it's a one day event, and no DTEND is needed.
+      // https://stackoverflow.com/a/30249034
+      if (end_time !== '') {
+        calendarEvent.push('DTEND;VALUE=DATE-TIME:' + end);
+      } else if (end !== start) {
+        calendarEvent.push('DTEND;VALUE=DATE:' + end);
+      }
+
+      calendarEvent.push(
         'LOCATION:' + location,
         'SUMMARY;LANGUAGE=en-us:' + subject,
         'TRANSP:TRANSPARENT',
         'END:VEVENT'
-      ];
-
-      if (rruleString) {
-        calendarEvent.splice(4, 0, rruleString);
-      }
+      );
 
       calendarEvent = calendarEvent.join(SEPARATOR);
 
