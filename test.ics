@@ -1,0 +1,3060 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Reason 4.5//EN
+X-WR-CALNAME;VALUE=TEXT:Reunion 2019
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:20180406125644-1700632@carleton.edu
+SUMMARY:Reunion 2019
+DESCRIPTION:Alumni Weekend at Carleton
+URL://apps.carleton.edu/reunion/
+LAST-MODIFIED:20190325T163056
+CREATED:20180406T125644
+DTSTAMP:20190413T133240
+DTSTART;VALUE=DATE:20190620
+DTEND;VALUE=DATE:20190620
+RRULE:FREQ=DAILY;UNTIL=20190623T000000;INTERVAL=1
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116131742-1786932@carleton.edu
+SUMMARY:Gould Library Open; exhibits
+DESCRIPTION:Visit the Gould Library and check out a variety of exhibits.
+LOCATION:Gould Library
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1786932
+LAST-MODIFIED:20190304T095707
+CREATED:20190116T131742
+DTSTAMP:20190413T133240
+DTSTART:20190620T080000
+DURATION:PT9H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190402083057-1815151@carleton.edu
+SUMMARY:A View of the Crusades
+DESCRIPTION:Come enjoy a sampling of Carleton's extensive collection of it
+ ems relating to the medieval era.
+LOCATION:Gould Library lobby
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1815151
+LAST-MODIFIED:20190402T083245
+CREATED:20190402T083057
+DTSTAMP:20190413T133240
+DTSTART:20190620T080000
+DURATION:PT9H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116114454-1786800@carleton.edu
+SUMMARY:Bookstore Open
+DESCRIPTION:Take a look at the redesigned bookstore and pick up your Carle
+ ton gear!
+LOCATION:Sayles-Hill
+URL:https://apps.carleton.edu/campus/bookstore/
+LAST-MODIFIED:20190301T075215
+CREATED:20190116T114454
+DTSTAMP:20190413T133240
+DTSTART:20190620T083000
+DURATION:PT8H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116115345-1786819@carleton.edu
+SUMMARY:Carleton Open Golf Tournament
+DESCRIPTION:Join fellow Carls out on the links for the annual Carleton Ope
+ n Golf Tournament. Check-in begins at 11:00 a.m., shotgun start at 1:00 p.
+ m.
+LOCATION:Northfield Golf Club, 707 Prairie St.
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1786819
+LAST-MODIFIED:20190326T122437
+CREATED:20190116T115345
+DTSTAMP:20190413T133240
+DTSTART:20190620T130000
+DURATION:PT5H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190225140430-1804479@carleton.edu
+SUMMARY:Lighten Up "Pop-Up" Reunion Sale
+DESCRIPTION:Shop the Lighten Up "pop up" sale which includes only; fans, C
+ arleton gear, and other memorabilia.
+LOCATION:Laird Stadium South End
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1804479
+LAST-MODIFIED:20190322T151611
+CREATED:20190225T140430
+DTSTAMP:20190413T133240
+DTSTART:20190620T130000
+DURATION:PT5H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116130919-1786917@carleton.edu
+SUMMARY:Need a coloring break? Illustrate the Libe
+DESCRIPTION:Illustrate the Libe! Draw or doodle your memories of the Libe!
+  Markers,colored pencils, and library themed prompts provided.
+LOCATION:Gould Library East Wing
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1786917
+LAST-MODIFIED:20190227T141007
+CREATED:20190116T130919
+DTSTAMP:20190413T133240
+DTSTART:20190620T150000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116131348-1786924@carleton.edu
+SUMMARY:Books, coloring sheets, games, and puzzles for kids.
+DESCRIPTION:Looking for something for your children to do? Visit the Gould
+  Library Rookery for books, coloring sheets, and puzzles for kids.
+LOCATION:Gould Library Rookery
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1786924
+LAST-MODIFIED:20190227T142339
+CREATED:20190116T131348
+DTSTAMP:20190413T133240
+DTSTART:20190620T150000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116131513-1786928@carleton.edu
+SUMMARY:Remember Me - Help the Archives identify people from Carleton's pa
+ st
+DESCRIPTION:Help the Archives identify people from Carleton's past.
+LOCATION:Gould Library Lobby
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1786928
+LAST-MODIFIED:20190304T095749
+CREATED:20190116T131513
+DTSTAMP:20190413T133240
+DTSTART:20190620T150000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116140454-1786980@carleton.edu
+SUMMARY:Recreation Center Open
+DESCRIPTION:Recreation Center open.
+LOCATION:Recreation Center
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1786980
+LAST-MODIFIED:20190116T140644
+CREATED:20190116T140454
+DTSTAMP:20190413T133240
+DTSTART:20190620T150000
+DURATION:PT4H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116140801-1786983@carleton.edu
+SUMMARY:50th Reunion Check-In
+DESCRIPTION:Pick up your name tag, room key (if staying on campus), and a 
+ full schedule of events for the weekend.
+LOCATION:Watson Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1786983
+LAST-MODIFIED:20190304T162403
+CREATED:20190116T140801
+DTSTAMP:20190413T133240
+DTSTART:20190620T150000
+DURATION:PT5H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116141328-1786985@carleton.edu
+SUMMARY:Information Desk Open
+DESCRIPTION:The Information Desk will be open during the following hours: 
+ Thursday, 3-10pm Friday, 7am-10pm Saturday, 7am-8pm Sunday, 6am-12pm
+LOCATION:Sayles-Hill
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1786985
+LAST-MODIFIED:20190116T141931
+CREATED:20190116T141328
+DTSTAMP:20190413T133240
+DTSTART:20190620T150000
+DURATION:PT7H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116142003-1786987@carleton.edu
+SUMMARY:CHECK-IN/SAME-DAY REGISTRATION; residence halls open at 3 p.m.
+DESCRIPTION:Residence halls open at 3pm
+LOCATION:Sayles-Hill Great Space
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1786987
+LAST-MODIFIED:20190227T142540
+CREATED:20190116T142003
+DTSTAMP:20190413T133240
+DTSTART:20190620T150000
+DURATION:PT7H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220094937-1802757@carleton.edu
+SUMMARY:'94 Welcome reception, dinner to follow at 6:30 p.m.
+DESCRIPTION:Gather on the Burton patio to kick off our 25th Reunion! Lawn 
+ games starting at 4pm, dinner starting at 6:30 pm.
+LOCATION:Burton Hall patio tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802757
+LAST-MODIFIED:20190402T083343
+CREATED:20190220T094937
+DTSTAMP:20190413T133240
+DTSTART:20190620T160000
+DURATION:PT8H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221141710-1803349@carleton.edu
+SUMMARY:'44, '49, '54, '59, '64 Welcome Reception with President Poskanzer
+DESCRIPTION:Welcome reception for Classes of 1944, 1949, 1954, 1959, and 1
+ 964.
+LOCATION:Nutting House lawn, 217 Union Street
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803349
+LAST-MODIFIED:20190227T142712
+CREATED:20190221T141710
+DTSTAMP:20190413T133240
+DTSTART:20190620T170000
+DURATION:PT0H45M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220095118-1802759@carleton.edu
+SUMMARY:'69 Welcome Reception
+DESCRIPTION:Kick off our 50th Reunion with a welcome reception.
+LOCATION:Weitz Center for Creativity Shackel Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802759
+LAST-MODIFIED:20190408T100414
+CREATED:20190220T095118
+DTSTAMP:20190413T133240
+DTSTART:20190620T171500
+DURATION:PT1H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116142524-1786991@carleton.edu
+SUMMARY:Alcoholics Anonymous Meeting
+DESCRIPTION:Closed meeting: AA members and prospective AA members may atte
+ nd. Discussion Format. Contact the shuttle desk, 507-649-2401, for a ride.
+LOCATION:713 Division Street S
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1786991
+LAST-MODIFIED:20190227T143134
+CREATED:20190116T142524
+DTSTAMP:20190413T133240
+DTSTART:20190620T173000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221145203-1803365@carleton.edu
+SUMMARY:'44, '49, '54, '59, '64 Welcome Dinner
+DESCRIPTION:Dinner for members of 1944, 1949, 1954, 1959, 1964.
+LOCATION:Language and Dining Center
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803365
+LAST-MODIFIED:20190221T145303
+CREATED:20190221T145203
+DTSTAMP:20190413T133240
+DTSTART:20190620T180000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116142828-1786993@carleton.edu
+SUMMARY:Welcome Picnic, dinner served until 8:30 p.m.
+DESCRIPTION:Connect with classmates at the welcome picnic. Dinner will be 
+ served until 8:30pm.
+LOCATION:Skinner Memorial Chapel tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1786993
+LAST-MODIFIED:20190402T110731
+CREATED:20190116T142828
+DTSTAMP:20190413T133240
+DTSTART:20190620T183000
+DURATION:PT2H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220095537-1802762@carleton.edu
+SUMMARY:'69 President's Welcome Dinner
+DESCRIPTION:Join your classmates for a special dinner with President Poska
+ nzer and reconnect with good friends.
+LOCATION:Weitz Center for Creativity Class of 1980 Commons
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802762
+LAST-MODIFIED:20190408T100442
+CREATED:20190220T095537
+DTSTAMP:20190413T133240
+DTSTART:20190620T183000
+DURATION:PT1H45M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228104405-1805769@carleton.edu
+SUMMARY:Game Night, hosted by '74
+DESCRIPTION:Eric Guttag ’74 will provide a wide variety of games. If there
+ ’s a game you would like to play but can’t fit it in your suitcase, tell E
+ ric!
+LOCATION:Sayles-Hill
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805769
+LAST-MODIFIED:20190320T121201
+CREATED:20190228T104405
+DTSTAMP:20190413T133240
+DTSTART:20190620T193000
+DURATION:PT3H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116145346-1787003@carleton.edu
+SUMMARY:Informal Class Gatherings
+DESCRIPTION:Informal class social time in your class hospitality lounges.
+LOCATION:Class hospitality lounges
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787003
+LAST-MODIFIED:20190117T152301
+CREATED:20190116T145346
+DTSTAMP:20190413T133240
+DTSTART:20190620T200000
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220095733-1802764@carleton.edu
+SUMMARY:'69 Social Time
+DESCRIPTION:Gather with friends and catch up in the 50th Reunion tent and 
+ lounge.
+LOCATION:Watson Hall main lounge
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802764
+LAST-MODIFIED:20190402T083551
+CREATED:20190220T095733
+DTSTAMP:20190413T133240
+DTSTART:20190620T203000
+DURATION:PT3H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220095836-1802766@carleton.edu
+SUMMARY:'69 Singalong with Marc Reigel '67 and Friends
+DESCRIPTION:Join Marc Reigel ’67 and friends for a singalong featuring som
+ e of our favorite tunes from the ’60s.
+LOCATION:Weitz Center for Creativity Shackel Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802766
+LAST-MODIFIED:20190227T161457
+CREATED:20190220T095836
+DTSTAMP:20190413T133240
+DTSTART:20190620T203000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116145701-1787007@carleton.edu
+SUMMARY:Recreation Center Open
+DESCRIPTION:Recreation center open; see activities for more information.
+LOCATION:Recreation Center
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787007
+LAST-MODIFIED:20190116T145824
+CREATED:20190116T145701
+DTSTAMP:20190413T133240
+DTSTART:20190621T063000
+DURATION:PT12H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116150130-1787015@carleton.edu
+SUMMARY:West Gymnasium's Thorpe Pool Open
+DESCRIPTION:West Thorpe pool open for lap swim.
+LOCATION:West Thorpe Pool
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787015
+LAST-MODIFIED:20190213T163040
+CREATED:20190116T150130
+DTSTAMP:20190413T133240
+DTSTART:20190621T070000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116150446-1787022@carleton.edu
+SUMMARY:All-Class Breakfast - Language and Dining Center
+DESCRIPTION:Coffee available at 6:30 a.m. in the Sayles-Hill Great Space; 
+ breakfast served 7-9 a.m.
+LOCATION:Language and Dining Center
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787022
+LAST-MODIFIED:20190402T084520
+CREATED:20190116T150446
+DTSTAMP:20190413T133240
+DTSTART:20190621T070000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116150729-1787032@carleton.edu
+SUMMARY:Information Desk Open
+DESCRIPTION:The info desk will be open during the following hours Friday: 
+ 7 a.m.-10 p.m.
+LOCATION:Sayles
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787032
+LAST-MODIFIED:20190227T161747
+CREATED:20190116T150729
+DTSTAMP:20190413T133240
+DTSTART:20190621T070000
+DURATION:PT15H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116151144-1787038@carleton.edu
+SUMMARY:Check-In and On-site Registration Open
+DESCRIPTION:Registration open
+LOCATION:Sayles-Hill Great Space
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787038
+LAST-MODIFIED:20190227T161814
+CREATED:20190116T151144
+DTSTAMP:20190413T133240
+DTSTART:20190621T073000
+DURATION:PT14H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116151423-1787043@carleton.edu
+SUMMARY:Camp Carleton Children's Program Registration
+DESCRIPTION:Camp Carleton Children's Program Registration
+LOCATION:Sayles 251
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787043
+LAST-MODIFIED:20190227T161845
+CREATED:20190116T151423
+DTSTAMP:20190413T133240
+DTSTART:20190621T080000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116154022-1787063@carleton.edu
+SUMMARY:All-Class Breakfast - Severance Tea Room
+DESCRIPTION:Coffee available in Sayles-Hill Great Space at 6:30 a.m. Break
+ fast 8-10 a.m.
+LOCATION:Severance Hall Tea Room
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787063
+LAST-MODIFIED:20190402T110904
+CREATED:20190116T154022
+DTSTAMP:20190413T133240
+DTSTART:20190621T080000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116154245-1787067@carleton.edu
+SUMMARY:Need a coloring break? Illustrate the Libe
+DESCRIPTION:Are you part of the adult coloring movement? Markers, colored 
+ pencils, and library theme prompts provided.
+LOCATION:Gould Library East Wing
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787067
+LAST-MODIFIED:20190227T161909
+CREATED:20190116T154245
+DTSTAMP:20190413T133240
+DTSTART:20190621T080000
+DURATION:PT9H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116154948-1787073@carleton.edu
+SUMMARY:Books, coloring sheets, games, and puzzles for kids.
+DESCRIPTION:Looking for something for your children to do? Visit the Gould
+  Library Rockery for books, coloring sheets, and puzzles for kids.
+LOCATION:Gould Library Rookery
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787073
+LAST-MODIFIED:20190117T082502
+CREATED:20190116T154948
+DTSTAMP:20190413T133240
+DTSTART:20190621T080000
+DURATION:PT9H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116155110-1787075@carleton.edu
+SUMMARY:Remember Me - Help the Archives identify people from Carleton's pa
+ st
+DESCRIPTION:Help the Archives identify people from Carleton's past.
+LOCATION:Gould Library Lobby
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787075
+LAST-MODIFIED:20190304T095858
+CREATED:20190116T155110
+DTSTAMP:20190413T133240
+DTSTART:20190621T080000
+DURATION:PT9H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117135330-1787580@carleton.edu
+SUMMARY:Gould Library Open; exhibits
+DESCRIPTION:Visit the Gould Library and check out a variety of exhibits
+LOCATION:Gould Library
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787580
+LAST-MODIFIED:20190117T135354
+CREATED:20190117T135330
+DTSTAMP:20190413T133240
+DTSTART:20190621T080000
+DURATION:PT9H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117135438-1787587@carleton.edu
+SUMMARY:Camp Carleton Children's Program Check-in
+DESCRIPTION:Camp Carleton Children's Program Check-in
+LOCATION:Sayles 251
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787587
+LAST-MODIFIED:20190117T135536
+CREATED:20190117T135438
+DTSTAMP:20190413T133240
+DTSTART:20190621T083000
+DURATION:PT0H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220100202-1802768@carleton.edu
+SUMMARY:Alumni College - Crusades, Apocalyptic Prophecy and the End of His
+ tory
+DESCRIPTION:Nebuchadnezzar's Dream: The Crusades, Apocalyptic Prophecy, an
+ d the End of History, presented by Jay Rubenstein ’89
+LOCATION:Weitz Center for Creativity cinema
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802768
+LAST-MODIFIED:20190408T095849
+CREATED:20190220T100202
+DTSTAMP:20190413T133240
+DTSTART:20190621T083000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220100814-1802771@carleton.edu
+SUMMARY:Alumni College - A Friendship in Words - Conversation with Two Wri
+ ters
+DESCRIPTION:Alumni College - A Friendship with Words - A Conversation with
+  Writers Prof. Gregory Blake Smith and Bonnie Nadzam '99
+LOCATION:Weitz Center for Creativity Kracum Perfomance Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802771
+LAST-MODIFIED:20190408T095809
+CREATED:20190220T100814
+DTSTAMP:20190413T133240
+DTSTART:20190621T083000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116155517-1787084@carleton.edu
+SUMMARY:Tour of the Library with Brad Schaffner, College Librarian
+DESCRIPTION:Get to know the Library as it is today!
+LOCATION:Gould Library Lobby - meet at Circulation Desk
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787084
+LAST-MODIFIED:20190304T100027
+CREATED:20190116T155517
+DTSTAMP:20190413T133240
+DTSTART:20190621T090000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116160357-1787096@carleton.edu
+SUMMARY:All-Class Cowling Arboretum Service Project, hosted by '74
+DESCRIPTION:Join Arboretum staff to plant native understory trees and shru
+ bs as part of our ongoing efforts to restore the forests of the Arboretum.
+LOCATION:Upper Arboretum, meet near Bell Field and the tennis courts
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787096
+LAST-MODIFIED:20190320T121403
+CREATED:20190116T160357
+DTSTAMP:20190413T133240
+DTSTART:20190621T090000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116160758-1787098@carleton.edu
+SUMMARY:Archives Open House
+DESCRIPTION:Come visit the Carleton College Archives!
+LOCATION:Archives Office - Gould Library 164
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787098
+LAST-MODIFIED:20190304T100057
+CREATED:20190116T160758
+DTSTAMP:20190413T133240
+DTSTART:20190621T090000
+DURATION:PT3H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116161131-1787100@carleton.edu
+SUMMARY:Check In for Teen Camp
+DESCRIPTION:Take this opportunity to meet other teens, play board games, r
+ eview the schedule, and make plans for the weekend
+LOCATION:Sayles-Hill Lounge
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787100
+LAST-MODIFIED:20190227T162743
+CREATED:20190116T161131
+DTSTAMP:20190413T133240
+DTSTART:20190621T100000
+DURATION:PT0H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116161435-1787102@carleton.edu
+SUMMARY:Wee Carls Children's Story Time
+DESCRIPTION:Come enjoy library staff reading from favorite children's book
+ s.
+LOCATION:Gould Library Rookery
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787102
+LAST-MODIFIED:20190227T162837
+CREATED:20190116T161435
+DTSTAMP:20190413T133240
+DTSTART:20190621T100000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220101216-1802777@carleton.edu
+SUMMARY:Alumni College - Geothermal Under the Bald Spot
+DESCRIPTION:Geothermal Under the Bald Spot, presented by Martha Larson, Ma
+ nager of Campus Energy and Sustainability
+LOCATION:Weitz Center for Creativity cinema
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802777
+LAST-MODIFIED:20190402T113524
+CREATED:20190220T101216
+DTSTAMP:20190413T133240
+DTSTART:20190621T100000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220101416-1802779@carleton.edu
+SUMMARY:Alumni College - Retrospectives on Admissions: 1987-2019
+DESCRIPTION:Retrospectives on admissions: 1987-2019, presented by Paul Thi
+ boutot, Vice President and Dean of Admissions and Financial Aid
+LOCATION:Weitz Center for Creativity Kracum Perfomance Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802779
+LAST-MODIFIED:20190227T163042
+CREATED:20190220T101416
+DTSTAMP:20190413T133240
+DTSTART:20190621T100000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116161750-1787106@carleton.edu
+SUMMARY:Teen Camp Games
+DESCRIPTION:Teen Program Games
+LOCATION:Meet at Sayles-Hill Lounge
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787106
+LAST-MODIFIED:20190227T163141
+CREATED:20190116T161750
+DTSTAMP:20190413T133240
+DTSTART:20190621T103000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220101600-1802781@carleton.edu
+SUMMARY:'94 Oral History Program Group Interview
+DESCRIPTION:The Carleton Oral History Program is adding a layer of history
+  to the College Archives by interviewing faculty, staff, alumni and retire
+ es.
+LOCATION:Gould Library 305
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802781
+LAST-MODIFIED:20190220T101733
+CREATED:20190220T101600
+DTSTAMP:20190413T133240
+DTSTART:20190621T110000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116094704-1786711@carleton.edu
+SUMMARY:Heywood Society Luncheon
+DESCRIPTION:The annual luncheon honoring members of the Joseph Lee Heywood
+  Society.
+LOCATION:Weitz Center for Creativity Class of 1980 Commons
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1786711
+LAST-MODIFIED:20190227T164553
+CREATED:20190116T094704
+DTSTAMP:20190413T133240
+DTSTART:20190621T113000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116162912-1787111@carleton.edu
+SUMMARY:All-Class Lunch
+DESCRIPTION:All-Class Lunch, Chapel tent (look for your class sign)
+LOCATION:Skinner Memorial Chapel tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787111
+LAST-MODIFIED:20190301T145228
+CREATED:20190116T162912
+DTSTAMP:20190413T133240
+DTSTART:20190621T113000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116163039-1787113@carleton.edu
+SUMMARY:Teen Camp Lunch
+DESCRIPTION:Teen program lunch
+LOCATION:Bald spot
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787113
+LAST-MODIFIED:20190227T164754
+CREATED:20190116T163039
+DTSTAMP:20190413T133240
+DTSTART:20190621T120000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220101910-1802786@carleton.edu
+SUMMARY:'94 Lunch
+DESCRIPTION:Picnic for the class of 1994
+LOCATION:Johnson House tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802786
+LAST-MODIFIED:20190402T113759
+CREATED:20190220T101910
+DTSTAMP:20190413T133240
+DTSTART:20190621T120000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116164001-1787119@carleton.edu
+SUMMARY:Camp Carleton Children's Program Registration
+DESCRIPTION:Camp Carleton Children's Program Registration
+LOCATION:Bald Spot
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787119
+LAST-MODIFIED:20190227T165038
+CREATED:20190116T164001
+DTSTAMP:20190413T133240
+DTSTART:20190621T121500
+DURATION:PT0H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116162420-1787109@carleton.edu
+SUMMARY:West Gymnasium's Thorpe Pool Open
+DESCRIPTION:West Thorpe pool open for lap swim
+LOCATION:West Gymnasium Thorpe Pool
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787109
+LAST-MODIFIED:20190213T163517
+CREATED:20190116T162420
+DTSTAMP:20190413T133240
+DTSTART:20190621T123000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116164216-1787121@carleton.edu
+SUMMARY:Tour of the Kracum Wind Turbine (bus departs at 12:30 and 1:00)
+DESCRIPTION:One hour tour of the Kracum Wind Turbine with Martha Larson, M
+ anager of Campus Energy and Sustainability. (Bus departs at 12:30 and 1:00
+ )
+LOCATION:Skinner Memorial Chapel steps
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787121
+LAST-MODIFIED:20190116T164401
+CREATED:20190116T164216
+DTSTAMP:20190413T133240
+DTSTART:20190621T123000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116164431-1787123@carleton.edu
+SUMMARY:Campus Architecture Tour
+DESCRIPTION:Campus Architecture Tour
+LOCATION:Meet at Sayles-Hill steps
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787123
+LAST-MODIFIED:20190227T165442
+CREATED:20190116T164431
+DTSTAMP:20190413T133240
+DTSTART:20190621T130000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116164917-1787125@carleton.edu
+SUMMARY:Teen Campus Scavenger Hunt
+DESCRIPTION:Join us for an exciting and challenging field trip around camp
+ us.
+LOCATION:Sayles-Hill Lounge
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787125
+LAST-MODIFIED:20190227T165530
+CREATED:20190116T164917
+DTSTAMP:20190413T133240
+DTSTART:20190621T130000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190308082026-1808726@carleton.edu
+SUMMARY:Biology Department Reception
+DESCRIPTION:Reception for biology alumni and faculty.
+LOCATION:Boliou East Gallery 102
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1808726
+LAST-MODIFIED:20190402T113846
+CREATED:20190308T082026
+DTSTAMP:20190413T133240
+DTSTART:20190621T130000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220102145-1802789@carleton.edu
+SUMMARY:Alumni College - Colleagues, Conversations, and Connections: Teach
+ ing
+DESCRIPTION:Supporting excellent teaching at Carleton, presented by Meliss
+ a Eblen-Zayas and Humphrey Doermann.
+LOCATION:Olin Hall 141
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802789
+LAST-MODIFIED:20190402T114025
+CREATED:20190220T102145
+DTSTAMP:20190413T133240
+DTSTART:20190621T131500
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220102608-1802793@carleton.edu
+SUMMARY:Alumni College - Social Movements and Protest in the Digital Era
+DESCRIPTION:Alumni College - Social Movements and Protest in the Digital E
+ ra, presented by Dev Gupta, Associate Professor of Political Science
+LOCATION:Olin Hall 149
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802793
+LAST-MODIFIED:20190402T114107
+CREATED:20190220T102608
+DTSTAMP:20190413T133240
+DTSTART:20190621T131500
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228105127-1805774@carleton.edu
+SUMMARY:'69 Healthcare and Healing into the 21st Century
+DESCRIPTION:Panelists will share personal and professional healing and hol
+ istic perspectives from their own experiences/practices.
+LOCATION:Weitz Center for Creativity Cinema
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805774
+LAST-MODIFIED:20190301T103544
+CREATED:20190228T105127
+DTSTAMP:20190413T133240
+DTSTART:20190621T131500
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190304143525-1806889@carleton.edu
+SUMMARY:'94 Oral History Program Group Interview
+DESCRIPTION:The Carleton Oral History Program is adding a layer of history
+  to the College Archives by interviewing faculty, staff, alumni and retire
+ es.
+LOCATION:Gould Library 305
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1806889
+LAST-MODIFIED:20190304T143559
+CREATED:20190304T143525
+DTSTAMP:20190413T133240
+DTSTART:20190621T131500
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116165519-1787131@carleton.edu
+SUMMARY:Archives Show and Tell: Historic Films from Carleton's History
+DESCRIPTION:Viewing of Carleton's historic films. Film will run continuous
+ ly.
+LOCATION:Gould Library East Wing
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787131
+LAST-MODIFIED:20190227T165831
+CREATED:20190116T165519
+DTSTAMP:20190413T133240
+DTSTART:20190621T133000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190116165635-1787133@carleton.edu
+SUMMARY:Library Resources for Alums: Show and Tell
+DESCRIPTION:Learn about library resources that alums can access
+LOCATION:Gould Library East Wing
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787133
+LAST-MODIFIED:20190117T082722
+CREATED:20190116T165635
+DTSTAMP:20190413T133240
+DTSTART:20190621T133000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190214093044-1800725@carleton.edu
+SUMMARY:'84 Class Photo
+DESCRIPTION:Come join us for your class photo!
+LOCATION:Skinner Memorial Chapel
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1800725
+LAST-MODIFIED:20190221T083513
+CREATED:20190214T093044
+DTSTAMP:20190413T133240
+DTSTART:20190621T133000
+DURATION:PT0H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117083712-1787321@carleton.edu
+SUMMARY:Reception for Library and Information Science Workers
+DESCRIPTION:Reception for Library and Information Science Workers - Past, 
+ Present, and Future
+LOCATION:Gould Library East Wing
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787321
+LAST-MODIFIED:20190304T101136
+CREATED:20190117T083712
+DTSTAMP:20190413T133240
+DTSTART:20190621T140000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228110409-1805783@carleton.edu
+SUMMARY:'99 Yard Games
+DESCRIPTION:Join your '99 classmates for fun lawn games outside James Hall
+ .
+LOCATION:Mini Bald Spot
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805783
+LAST-MODIFIED:20190228T110524
+CREATED:20190228T110409
+DTSTAMP:20190413T133240
+DTSTART:20190621T140000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190306121028-1807956@carleton.edu
+SUMMARY:History Faculty/Alumni Reception
+DESCRIPTION:Please join us at the history department reception hosted by P
+ rofessors Victoria Morse and Bill North.
+LOCATION:109 Winona Street
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1807956
+LAST-MODIFIED:20190402T114245
+CREATED:20190306T121028
+DTSTAMP:20190413T133240
+DTSTART:20190621T140000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190307155735-1808542@carleton.edu
+SUMMARY:Asian Languages & Literatures Reception
+DESCRIPTION:Reception for Asian Languages and Literatures alumni and facul
+ ty
+LOCATION:Asian Languages Lounge, Language and Dining Center 210
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1808542
+LAST-MODIFIED:20190307T155913
+CREATED:20190307T155735
+DTSTAMP:20190413T133240
+DTSTART:20190621T140000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220102804-1802796@carleton.edu
+SUMMARY:'54 and '59 Panel with Students
+DESCRIPTION:A student panel will discuss life at Carleton in 2019
+LOCATION:Weitz Center for Creativity Applebaum Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802796
+LAST-MODIFIED:20190408T095453
+CREATED:20190220T102804
+DTSTAMP:20190413T133240
+DTSTART:20190621T141500
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117083859-1787323@carleton.edu
+SUMMARY:Walking Tour of the Cowling Arboretum
+DESCRIPTION:Walk with Matthew Elbert, Manager of Cowling Arboretum, and Ma
+ rk McKone, Professor of Biology.
+LOCATION:Meet at Arb kiosk outside Recreation Center
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787323
+LAST-MODIFIED:20190228T083044
+CREATED:20190117T083859
+DTSTAMP:20190413T133240
+DTSTART:20190621T143000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228110532-1805786@carleton.edu
+SUMMARY:'69 Community Action: Making a Difference Now
+DESCRIPTION:Come hear from a panel of your classmates about find out how c
+ hange can occur, its impact and importance.
+LOCATION:Weitz Center for Creativity Kracum Perfomance Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805786
+LAST-MODIFIED:20190228T110738
+CREATED:20190228T110532
+DTSTAMP:20190413T133240
+DTSTART:20190621T143000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228110748-1805788@carleton.edu
+SUMMARY:'09 Show and Tell
+DESCRIPTION:Tell a story, share an anecdote, reflect on something you’ve b
+ een working on. Ted Talk meets Moth Radio Hour meets Show and Tell.
+LOCATION:Weitz Center for Creativity theater
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805788
+LAST-MODIFIED:20190402T114600
+CREATED:20190228T110748
+DTSTAMP:20190413T133240
+DTSTART:20190621T143000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228110929-1805790@carleton.edu
+SUMMARY:'14 "Beyond the Books"
+DESCRIPTION:The Class of 2014 invites 4-6 speakers together for short Ted-
+ style talks to highlight service outside of their 9-5 job.
+LOCATION:Olin Hall 149
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805790
+LAST-MODIFIED:20190228T111108
+CREATED:20190228T110929
+DTSTAMP:20190413T133240
+DTSTART:20190621T143000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228111115-1805793@carleton.edu
+SUMMARY:'79 Public Service Panel Discussion
+DESCRIPTION:Learn from a panel of Carls who have served in various levels 
+ of government.
+LOCATION:Leighton Hall 305
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805793
+LAST-MODIFIED:20190301T120531
+CREATED:20190228T111115
+DTSTAMP:20190413T133240
+DTSTART:20190621T143000
+DURATION:PT1H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228111647-1805798@carleton.edu
+SUMMARY:'64 Life Sharing Stories I and II
+DESCRIPTION:1964 classmates will share stories and lessons of life.
+LOCATION:Weitz Center for Creativity cinema
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805798
+LAST-MODIFIED:20190408T095358
+CREATED:20190228T111647
+DTSTAMP:20190413T133240
+DTSTART:20190621T143000
+DURATION:PT2H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190329153641-1814578@carleton.edu
+SUMMARY:Art and Art History Department Reception
+DESCRIPTION:Join your classmates for the Art and Art History department Re
+ ception.
+LOCATION:tbd
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1814578
+LAST-MODIFIED:20190402T114515
+CREATED:20190329T153641
+DTSTAMP:20190413T133240
+DTSTART:20190621T143000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117084103-1787325@carleton.edu
+SUMMARY:Teen Camp bake cookies at Dacie Moses or try visit the Rec Center
+DESCRIPTION:Gather your new friends and make and enjoy fresh-baked cookies
+ , OR check out the Recreation Center.
+LOCATION:Sayles-Hill Lounge
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787325
+LAST-MODIFIED:20190329T152407
+CREATED:20190117T084103
+DTSTAMP:20190413T133240
+DTSTART:20190621T150000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117150436-1787679@carleton.edu
+SUMMARY:Out After Carleton Reception
+DESCRIPTION:Connect with alumni and current students over great food and c
+ onversation as we celebrate Carleton's OAC on-campus and extended communit
+ y.
+LOCATION:Johnson House tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787679
+LAST-MODIFIED:20190402T115122
+CREATED:20190117T150436
+DTSTAMP:20190413T133240
+DTSTART:20190621T150000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228111821-1805801@carleton.edu
+SUMMARY:Migration and Borders Panel, hosted by the class of '94
+DESCRIPTION:Join Professors Ben Johnson '94 and Elizabeth Keyes '94 for a 
+ discussion about migration, borders and immigration law in America.
+LOCATION:Boliou Hall 104
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805801
+LAST-MODIFIED:20190408T095932
+CREATED:20190228T111821
+DTSTAMP:20190413T133240
+DTSTART:20190621T150000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228112029-1805804@carleton.edu
+SUMMARY:'74 CARL Talks
+DESCRIPTION:Hear your classmates talk about life-changing experiences
+LOCATION:Little Nourse Theater
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805804
+LAST-MODIFIED:20190228T112202
+CREATED:20190228T112029
+DTSTAMP:20190413T133240
+DTSTART:20190621T150000
+DURATION:PT1H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228112226-1805808@carleton.edu
+SUMMARY:'89 Life's Curveballs
+DESCRIPTION:A panel of classmates discussing life-changing illness, elderl
+ y parents, re-invention of themselves.
+LOCATION:Olin Hall 141
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805808
+LAST-MODIFIED:20190408T100006
+CREATED:20190228T112226
+DTSTAMP:20190413T133240
+DTSTART:20190621T150000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190214083534-1800672@carleton.edu
+SUMMARY:'59 Class Photo
+DESCRIPTION:Come join us for your class photo.
+LOCATION:Alumni Guest House library
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1800672
+LAST-MODIFIED:20190402T115147
+CREATED:20190214T083534
+DTSTAMP:20190413T133240
+DTSTART:20190621T154500
+DURATION:PT0H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228113634-1805826@carleton.edu
+SUMMARY:'69 Sharing Our Stories
+DESCRIPTION:Connect with classmates through focused conversations.
+LOCATION:Weitz Center for Creativity Applebaum Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805826
+LAST-MODIFIED:20190402T115216
+CREATED:20190228T113634
+DTSTAMP:20190413T133240
+DTSTART:20190621T154500
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117112918-1787457@carleton.edu
+SUMMARY:Teen Camp Reunion Carnival/ Frisbee Golf
+DESCRIPTION:Play mini-golf, roam the inflatables, get your face painted, e
+ tc., OR do Frisbee Golf!
+LOCATION:Meet at Sayles-Hill Lounge
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787457
+LAST-MODIFIED:20190228T085108
+CREATED:20190117T112918
+DTSTAMP:20190413T133240
+DTSTART:20190621T160000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117113132-1787459@carleton.edu
+SUMMARY:Reunion Carnival and Happy Hour with Faculty and Staff
+DESCRIPTION:Reunion Carnival and All Class Happy Hour with Faculty and Sta
+ ff reception.
+LOCATION:Bald Spot
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787459
+LAST-MODIFIED:20190117T113313
+CREATED:20190117T113132
+DTSTAMP:20190413T133240
+DTSTART:20190621T160000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117113348-1787464@carleton.edu
+SUMMARY:Camp Carleton Children's Program Check-in for Dinner and a Movie
+DESCRIPTION:Camp Carleton Children's Program Check-in for Dinner and a Mov
+ ie for pre-registered only.
+LOCATION:Bald Spot
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787464
+LAST-MODIFIED:20190228T085206
+CREATED:20190117T113348
+DTSTAMP:20190413T133240
+DTSTART:20190621T161500
+DURATION:PT0H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190214083656-1800674@carleton.edu
+SUMMARY:'79 Class Photo
+DESCRIPTION:Come join us for your class photo!
+LOCATION:Skinner Memorial Chapel
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1800674
+LAST-MODIFIED:20190308T095218
+CREATED:20190214T083656
+DTSTAMP:20190413T133240
+DTSTART:20190621T161500
+DURATION:PT0H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117113558-1787467@carleton.edu
+SUMMARY:Multicultural Alumni Network (MCAN) Reception
+DESCRIPTION:Join Multicultural Alumni Network alumni for a reception to co
+ nnect and socialize.
+LOCATION:Boliou Hall patio
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787467
+LAST-MODIFIED:20190402T115304
+CREATED:20190117T113558
+DTSTAMP:20190413T133240
+DTSTART:20190621T163000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190214091930-1800699@carleton.edu
+SUMMARY:'74 Class Photo
+DESCRIPTION:Come join us for your class photo!
+LOCATION:Skinner Memorial Chapel
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1800699
+LAST-MODIFIED:20190228T085429
+CREATED:20190214T091930
+DTSTAMP:20190413T133240
+DTSTART:20190621T164500
+DURATION:PT0H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220102957-1802799@carleton.edu
+SUMMARY:'69 Reception with Old-Time Country Music
+DESCRIPTION:Enjoy socializing with your classmates before the class photo 
+ at 6 p.m. Bob & Lynn Dixon and John Wallace will offer live music in the t
+ ent.
+LOCATION:Watson Hall main lounge and tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802799
+LAST-MODIFIED:20190408T100636
+CREATED:20190220T102957
+DTSTAMP:20190413T133240
+DTSTART:20190621T170000
+DURATION:PT0H45M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221145559-1803370@carleton.edu
+SUMMARY:'59 Class reception, dinner to follow at 5:45pm
+DESCRIPTION:Please join your class for a reception with dinner to follow.
+LOCATION:Weitz Center for Creativity Larson Family Meeting Room (236)
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803370
+LAST-MODIFIED:20190228T085755
+CREATED:20190221T145559
+DTSTAMP:20190413T133240
+DTSTART:20190621T170000
+DURATION:PT2H45M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221145656-1803372@carleton.edu
+SUMMARY:'44, '49, '54 Class Reception, Dinner to follow at 5:30pm
+DESCRIPTION:Reception and dinner for alumni from the classes of 1944-1954
+LOCATION:Alumni Guest House meeting room
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803372
+LAST-MODIFIED:20190402T115411
+CREATED:20190221T145656
+DTSTAMP:20190413T133240
+DTSTART:20190621T170000
+DURATION:PT2H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190214092044-1800703@carleton.edu
+SUMMARY:'64 Class Photo
+DESCRIPTION:Come join us for your class photo!
+LOCATION:Skinner Memorial Chapel
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1800703
+LAST-MODIFIED:20190221T083651
+CREATED:20190214T092044
+DTSTAMP:20190413T133240
+DTSTART:20190621T171500
+DURATION:PT0H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117114012-1787470@carleton.edu
+SUMMARY:Teen Camp Dinner
+DESCRIPTION:Scavenger Hunt winners announced and everyone decorates parade
+  t-shirts!
+LOCATION:Sayles-Hill Great Space
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787470
+LAST-MODIFIED:20190402T115505
+CREATED:20190117T114012
+DTSTAMP:20190413T133240
+DTSTART:20190621T173000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220103110-1802802@carleton.edu
+SUMMARY:'94 Reception with President Poskanzer
+DESCRIPTION:President Steve Poskanzer hosts the 25th Reunion class at Nutt
+ ing House.
+LOCATION:Nutting House lawn, 217 Union Street
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802802
+LAST-MODIFIED:20190220T103209
+CREATED:20190220T103110
+DTSTAMP:20190413T133240
+DTSTART:20190621T173000
+DURATION:PT0H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221145814-1803375@carleton.edu
+SUMMARY:'64 Class reception, dinner to follow at 6:30 p.m.
+DESCRIPTION:Class Dinner
+LOCATION:Severance Hall Tea Room
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803375
+LAST-MODIFIED:20190221T145912
+CREATED:20190221T145814
+DTSTAMP:20190413T133240
+DTSTART:20190621T173000
+DURATION:PT2H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190214092134-1800705@carleton.edu
+SUMMARY:'69 Class Photo
+DESCRIPTION:Come join us for your class photo!
+LOCATION:Skinner Memorial Chapel
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1800705
+LAST-MODIFIED:20190221T083702
+CREATED:20190214T092134
+DTSTAMP:20190413T133240
+DTSTART:20190621T180000
+DURATION:PT0H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221163203-1803461@carleton.edu
+SUMMARY:'04 Class Dinner
+DESCRIPTION:Class Dinner
+LOCATION:Evans Hall tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803461
+LAST-MODIFIED:20190402T115600
+CREATED:20190221T163203
+DTSTAMP:20190413T133240
+DTSTART:20190621T180000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221163412-1803464@carleton.edu
+SUMMARY:'99 Class Dinner
+DESCRIPTION:Join your classmates for dinner and conversation.
+LOCATION:Skinner Memorial Chapel tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803464
+LAST-MODIFIED:20190402T115538
+CREATED:20190221T163412
+DTSTAMP:20190413T133240
+DTSTART:20190621T180000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221163514-1803469@carleton.edu
+SUMMARY:'74 Class Dinner
+DESCRIPTION:Join your classmates for dinner and conversation.
+LOCATION:Weitz Center for Creativity Shackel Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803469
+LAST-MODIFIED:20190221T163619
+CREATED:20190221T163514
+DTSTAMP:20190413T133240
+DTSTART:20190621T180000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221163637-1803474@carleton.edu
+SUMMARY:'84 Class Dinner
+DESCRIPTION:Join your classmates for dinner and conversation.
+LOCATION:Language and Dining Center
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803474
+LAST-MODIFIED:20190221T163735
+CREATED:20190221T163637
+DTSTAMP:20190413T133240
+DTSTART:20190621T180000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221163744-1803477@carleton.edu
+SUMMARY:'79 Class Dinner
+DESCRIPTION:Join your classmates for dinner and conversation.
+LOCATION:The Grand, 316 Washington Street
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803477
+LAST-MODIFIED:20190408T100348
+CREATED:20190221T163744
+DTSTAMP:20190413T133240
+DTSTART:20190621T180000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221163940-1803479@carleton.edu
+SUMMARY:'14 Class Dinner
+DESCRIPTION:Join your classmates for dinner and conversation.
+LOCATION:Recreation Center tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803479
+LAST-MODIFIED:20190402T115625
+CREATED:20190221T163940
+DTSTAMP:20190413T133240
+DTSTART:20190621T183000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221164123-1803482@carleton.edu
+SUMMARY:'94 Class Dinner
+DESCRIPTION:Class Dinner
+LOCATION:Weitz Center for Creativity Class of 1980 Commons
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803482
+LAST-MODIFIED:20190221T164230
+CREATED:20190221T164123
+DTSTAMP:20190413T133240
+DTSTART:20190621T183000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221164235-1803489@carleton.edu
+SUMMARY:'89 Class Dinner
+DESCRIPTION:Join your classmates for dinner and conversation.
+LOCATION:Johnson House tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803489
+LAST-MODIFIED:20190221T164323
+CREATED:20190221T164235
+DTSTAMP:20190413T133240
+DTSTART:20190621T183000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221164328-1803495@carleton.edu
+SUMMARY:'69 Class Dinner
+DESCRIPTION:Join your classmates for dinner as we celebrate our 50th Reuni
+ on.
+LOCATION:Severance Hall Great Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803495
+LAST-MODIFIED:20190408T100555
+CREATED:20190221T164328
+DTSTAMP:20190413T133240
+DTSTART:20190621T183000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117114145-1787474@carleton.edu
+SUMMARY:Teen Camp Bowling
+DESCRIPTION:Strike some fun down at the Jesse James Lanes. Please bring mo
+ ney for bowling and shoe rental.
+LOCATION:Meet at Sayles-Hill Lounge
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787474
+LAST-MODIFIED:20190228T090004
+CREATED:20190117T114145
+DTSTAMP:20190413T133240
+DTSTART:20190621T190000
+DURATION:PT3H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221164524-1803499@carleton.edu
+SUMMARY:'09 Class Dinner
+DESCRIPTION:Join your classmates for dinner and conversation.
+LOCATION:Lower Lyman Lake tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803499
+LAST-MODIFIED:20190221T164609
+CREATED:20190221T164524
+DTSTAMP:20190413T133240
+DTSTART:20190621T190000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228113901-1805829@carleton.edu
+SUMMARY:'04 Family Friendly Bonfire and S'more Making on Mai Fete
+DESCRIPTION:Class of '04 Family Friendly Bonfire and S'more Making on Mai 
+ Fete.
+LOCATION:Mai Fete Island
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805829
+LAST-MODIFIED:20190228T114108
+CREATED:20190228T113901
+DTSTAMP:20190413T133240
+DTSTART:20190621T190000
+DURATION:PT3H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228114134-1805832@carleton.edu
+SUMMARY:'84 After Dinner Musical Performances and Memories
+DESCRIPTION:After the 1984 class dinner, stay for a very special performan
+ ce of musical memories and reflections hosted by Jay Waldera '84
+LOCATION:Language and Dining Center
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805832
+LAST-MODIFIED:20190312T143256
+CREATED:20190228T114134
+DTSTAMP:20190413T133240
+DTSTART:20190621T193000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117114300-1787478@carleton.edu
+SUMMARY:Camp Carleton Children's Program Pick-up Children
+DESCRIPTION:Camp Carleton Children's Program Pick-up Children
+LOCATION:Sayles-Hill 251
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787478
+LAST-MODIFIED:20190228T092939
+CREATED:20190117T114300
+DTSTAMP:20190413T133240
+DTSTART:20190621T200000
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117120410-1787507@carleton.edu
+SUMMARY:Informal Class Gatherings
+DESCRIPTION:Informal class social time in your class hospitality lounges.
+LOCATION:Class hospitality lounges
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787507
+LAST-MODIFIED:20190117T152242
+CREATED:20190117T120410
+DTSTAMP:20190413T133240
+DTSTART:20190621T200000
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220103234-1802809@carleton.edu
+SUMMARY:All-Class Trivia, hosted by '94
+DESCRIPTION:Do you miss Late Night Trivia? Come and test your mettle with 
+ this all-class trivia challenge.
+LOCATION:Skinner Memorial Chapel tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802809
+LAST-MODIFIED:20190402T115723
+CREATED:20190220T103234
+DTSTAMP:20190413T133240
+DTSTART:20190621T200000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228114328-1805835@carleton.edu
+SUMMARY:'99 Gimme Some Loving, Legacy Edition
+DESCRIPTION:Relive your Carleton days with your class peers at the 11th Gi
+ mme Some Loving party. Music, Drinks, and Snacks provided
+LOCATION:James Hall main lounge
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805835
+LAST-MODIFIED:20190409T112658
+CREATED:20190228T114328
+DTSTAMP:20190413T133240
+DTSTART:20190621T200000
+DURATION:PT4H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228114521-1805837@carleton.edu
+SUMMARY:'79 Variety Show
+DESCRIPTION:Musical performances -- vocal or instrumental -- poetry or sho
+ rt prose readings, juggling, or stand-up comedy.
+LOCATION:The Grand, 316 Washington Street
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805837
+LAST-MODIFIED:20190408T100324
+CREATED:20190228T114521
+DTSTAMP:20190413T133240
+DTSTART:20190621T200000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228115145-1805839@carleton.edu
+SUMMARY:'89 Karaoke in the Cave
+DESCRIPTION:An Open Mic Karaoke night at The Cave
+LOCATION:The Cave
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805839
+LAST-MODIFIED:20190401T110027
+CREATED:20190228T115145
+DTSTAMP:20190413T133240
+DTSTART:20190621T200000
+DURATION:PT3H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117114425-1787482@carleton.edu
+SUMMARY:Trio Chicago and Friends Performance, hosted by '64
+DESCRIPTION:The evening program will include all American music -- jazz, b
+ lues, folk, and ragtime.
+LOCATION:Weitz Center for Creativity Kracum Perfomance Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787482
+LAST-MODIFIED:20190228T093107
+CREATED:20190117T114425
+DTSTAMP:20190413T133240
+DTSTART:20190621T203000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220103331-1802813@carleton.edu
+SUMMARY:DJ and Dance Social, hosted by '04 and '09
+DESCRIPTION:DJ and Dance party, hosted by '04 and '09
+LOCATION:Lower Lyman Lake tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802813
+LAST-MODIFIED:20190402T115821
+CREATED:20190220T103331
+DTSTAMP:20190413T133240
+DTSTART:20190621T203000
+DURATION:PT3H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190408100029-1817719@carleton.edu
+SUMMARY:'14 Evening Bonfire
+DESCRIPTION:Join your classmates for a bonfire at the Hill of Three Oaks.
+LOCATION:Hill of Three Oaks
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1817719
+LAST-MODIFIED:20190408T100131
+CREATED:20190408T100029
+DTSTAMP:20190413T133240
+DTSTART:20190621T203000
+DURATION:PT3H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117114803-1787484@carleton.edu
+SUMMARY:Teen Camp Rootbeer Floats
+DESCRIPTION:Make your own rootbeer floats until fireworks. Yum!
+LOCATION:Boliou Hall patio
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787484
+LAST-MODIFIED:20190228T093145
+CREATED:20190117T114803
+DTSTAMP:20190413T133240
+DTSTART:20190621T210000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117114937-1787488@carleton.edu
+SUMMARY:Alcoholics Anonymous Meeting
+DESCRIPTION:AA open meeting: anyone can attend. Discussion Format.
+LOCATION:Willis Hall 203
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787488
+LAST-MODIFIED:20190117T115101
+CREATED:20190117T114937
+DTSTAMP:20190413T133240
+DTSTART:20190621T210000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117115111-1787491@carleton.edu
+SUMMARY:Reunion Fireworks
+DESCRIPTION:Find a great spot on campus to watch the fireworks.
+LOCATION:Lilac Hill
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787491
+LAST-MODIFIED:20190117T115217
+CREATED:20190117T115111
+DTSTAMP:20190413T133240
+DTSTART:20190621T220000
+DURATION:PT0H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117115232-1787496@carleton.edu
+SUMMARY:Teen Camp Fireworks
+DESCRIPTION:Find a great spot on campus to watch the fireworks
+LOCATION:Meet at Sayles-Hill Lounge
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787496
+LAST-MODIFIED:20190228T093300
+CREATED:20190117T115232
+DTSTAMP:20190413T133240
+DTSTART:20190621T220000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117120129-1787502@carleton.edu
+SUMMARY:Goodsell Observatory Open House
+DESCRIPTION:Goodsell Observatory Open House.
+LOCATION:Goodsell Observatory
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787502
+LAST-MODIFIED:20190117T120258
+CREATED:20190117T120129
+DTSTAMP:20190413T133240
+DTSTART:20190621T221500
+DURATION:PT0H45M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117134510-1787555@carleton.edu
+SUMMARY:Information Desk Open
+DESCRIPTION:The info desk will be open during the following hours Saturday
+ : 7 a.m.- 8 p.m.
+LOCATION:Sayles-Hill
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787555
+LAST-MODIFIED:20190228T093714
+CREATED:20190117T134510
+DTSTAMP:20190413T133240
+DTSTART:20190622T070000
+DURATION:PT13H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117134639-1787562@carleton.edu
+SUMMARY:Recreation Center Open
+DESCRIPTION:Recreation center open; see activities for more information.
+LOCATION:Recreation Center
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787562
+LAST-MODIFIED:20190228T093537
+CREATED:20190117T134639
+DTSTAMP:20190413T133240
+DTSTART:20190622T070000
+DURATION:PT11H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117134736-1787566@carleton.edu
+SUMMARY:West Thorpe Pool Open
+DESCRIPTION:West Thorpe pool open for lap swim.
+LOCATION:West Gymnasium Thorpe Pool
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787566
+LAST-MODIFIED:20190228T093348
+CREATED:20190117T134736
+DTSTAMP:20190413T133240
+DTSTART:20190622T070000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117134810-1787568@carleton.edu
+SUMMARY:All-Class Breakfast - Language and Dining Center
+DESCRIPTION:Coffee available at 6:30 a.m. in the Sayles-Hill Great Space. 
+ Breakfast served 7-9am. Will close promptly at 9:00am.
+LOCATION:Language and Dining Center
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787568
+LAST-MODIFIED:20190301T145425
+CREATED:20190117T134810
+DTSTAMP:20190413T133240
+DTSTART:20190622T070000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190214092237-1800707@carleton.edu
+SUMMARY:The Bill Huyck '53 Reunion 5K Arb Run/Walk
+DESCRIPTION:Join us for the annual Bill Huyck '53 Reunion 5k Arb Run/Walk.
+  Registration opens at 7:30 a.m. Start time: 8 a.m.
+LOCATION:Recreation Center tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1800707
+LAST-MODIFIED:20190228T093924
+CREATED:20190214T092237
+DTSTAMP:20190413T133240
+DTSTART:20190622T073000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117135003-1787570@carleton.edu
+SUMMARY:All-Class Breakfast - Severance Tea Room
+DESCRIPTION:Coffee available in Sayles-Hill Great Space at 6:30 a.m. Break
+ fast 8-10 a.m.
+LOCATION:Severance Hall Tea Room
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787570
+LAST-MODIFIED:20190301T145456
+CREATED:20190117T135003
+DTSTAMP:20190413T133240
+DTSTART:20190622T080000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117135046-1787573@carleton.edu
+SUMMARY:Check-In and On-site Registration Open
+DESCRIPTION:Registration open
+LOCATION:Sayles-Hill Great Space
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787573
+LAST-MODIFIED:20190117T135141
+CREATED:20190117T135046
+DTSTAMP:20190413T133240
+DTSTART:20190622T080000
+DURATION:PT7H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117135217-1787576@carleton.edu
+SUMMARY:Need a coloring break? Illustrate the Libe
+DESCRIPTION:Are you part of the adult coloring movement? Markers, colored 
+ pencils, and library theme prompts provided.
+LOCATION:Gould Library East Wing
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787576
+LAST-MODIFIED:20190228T094007
+CREATED:20190117T135217
+DTSTAMP:20190413T133240
+DTSTART:20190622T080000
+DURATION:PT9H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117135250-1787578@carleton.edu
+SUMMARY:Books, coloring sheets, games, and puzzles for kids.
+DESCRIPTION:Looking for something for your children to do? Visit the Gould
+  Library Rockery for books, coloring sheets, and puzzles for kids.
+LOCATION:Gould Library Rookery
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787578
+LAST-MODIFIED:20190228T094042
+CREATED:20190117T135250
+DTSTAMP:20190413T133240
+DTSTART:20190622T080000
+DURATION:PT9H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117135413-1787585@carleton.edu
+SUMMARY:Remember Me - Help Archives identify people from Carleton’s past
+DESCRIPTION:Help the Archives identify people from Carleton's past.
+LOCATION:Gould Library Lobby
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787585
+LAST-MODIFIED:20190304T101232
+CREATED:20190117T135413
+DTSTAMP:20190413T133240
+DTSTART:20190622T080000
+DURATION:PT9H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117135545-1787591@carleton.edu
+SUMMARY:Breakfast for Alumni Association Awardees and 'C' Club Hall of Fam
+ e
+DESCRIPTION:Breakfast for Alumni Association Award Recipients and 'C' Club
+  Hall of Fame Inductees
+LOCATION:Severance Hall Great Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787591
+LAST-MODIFIED:20190301T145510
+CREATED:20190117T135545
+DTSTAMP:20190413T133240
+DTSTART:20190622T083000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220103529-1802816@carleton.edu
+SUMMARY:Alumni College - Arctic and Antarctic Alumni Adventures
+DESCRIPTION:Alumni College - Arctic and Antarctic Alumni Adventures, prese
+ nted by Mary Savina '72, Professor of Geology, and Lance Ihinger '79
+LOCATION:Weitz Center for Creativity cinema
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802816
+LAST-MODIFIED:20190402T115952
+CREATED:20190220T103529
+DTSTAMP:20190413T133240
+DTSTART:20190622T083000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220103714-1802818@carleton.edu
+SUMMARY:Alumni College - The History and Impact of Performing Arts@Carleto
+ n
+DESCRIPTION:The History and Impact of the Performing Arts@Carleton - prese
+ nted by an Emeriti Faculty Panel
+LOCATION:Weitz Center for Creativity Kracum Perfomance Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802818
+LAST-MODIFIED:20190402T115917
+CREATED:20190220T103714
+DTSTAMP:20190413T133240
+DTSTART:20190622T083000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228094708-1805715@carleton.edu
+SUMMARY:Camp Carleton Children's Program Check-in
+DESCRIPTION:Camp Carleton Children's Program Check-in
+LOCATION:Sayles-Hill 251
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805715
+LAST-MODIFIED:20190228T094820
+CREATED:20190228T094708
+DTSTAMP:20190413T133240
+DTSTART:20190622T083000
+DURATION:PT0H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228100433-1805723@carleton.edu
+SUMMARY:Teen Camp Check-in
+DESCRIPTION:Gather in Upper Sayles
+LOCATION:Sayles-Hill Lounge
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805723
+LAST-MODIFIED:20190228T100519
+CREATED:20190228T100433
+DTSTAMP:20190413T133240
+DTSTART:20190622T091500
+DURATION:PT0H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228100614-1805726@carleton.edu
+SUMMARY:Teen Camp Parade of Classes
+DESCRIPTION:Catch the Carleton alumni as they stroll through campus
+LOCATION:Bald Spot
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805726
+LAST-MODIFIED:20190228T100711
+CREATED:20190228T100614
+DTSTAMP:20190413T133240
+DTSTART:20190622T094500
+DURATION:PT0H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117140314-1787601@carleton.edu
+SUMMARY:Parade of Classes
+DESCRIPTION:Catch the Carleton Alumni as they stroll through campus.
+LOCATION:Bald Spot
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787601
+LAST-MODIFIED:20190301T075154
+CREATED:20190117T140314
+DTSTAMP:20190413T133240
+DTSTART:20190622T100000
+DURATION:PT0H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117140715-1787603@carleton.edu
+SUMMARY:Teen Camp Field Trip
+DESCRIPTION:(PRE-REGISTRATION REQUIRED ONLINE) Rafting down the Cannon Riv
+ er!
+LOCATION:Meet at Sayles-Hill Lounge
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787603
+LAST-MODIFIED:20190228T100807
+CREATED:20190117T140715
+DTSTAMP:20190413T133240
+DTSTART:20190622T101500
+DURATION:PT4H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117140948-1787605@carleton.edu
+SUMMARY:Reunion Convocation
+DESCRIPTION:Reunion Convo
+LOCATION:Skinner Memorial Chapel
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787605
+LAST-MODIFIED:20190117T141123
+CREATED:20190117T140948
+DTSTAMP:20190413T133240
+DTSTART:20190622T103000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117141136-1787608@carleton.edu
+SUMMARY:Wee Carls Story Time and Crafts
+DESCRIPTION:Come enjoy library staff reading from favorite children's book
+ s and make origami penguins.
+LOCATION:Gould Library Rookery
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787608
+LAST-MODIFIED:20190304T101415
+CREATED:20190117T141136
+DTSTAMP:20190413T133240
+DTSTART:20190622T103000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228115401-1805841@carleton.edu
+SUMMARY:Lunch for classes '74-'14
+DESCRIPTION:All-class lunch
+LOCATION:Skinner Memorial Chapel tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805841
+LAST-MODIFIED:20190404T172040
+CREATED:20190228T115401
+DTSTAMP:20190413T133240
+DTSTART:20190622T113000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117141802-1787611@carleton.edu
+SUMMARY:'C' Club Hall of Fame Luncheon
+DESCRIPTION:Celebrate the induction of this year's Hall of Fame athletes.
+LOCATION:Weitz Center for Creativity Larson Family Meeting Room (236)
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787611
+LAST-MODIFIED:20190228T101004
+CREATED:20190117T141802
+DTSTAMP:20190413T133240
+DTSTART:20190622T120000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228115512-1805843@carleton.edu
+SUMMARY:'44, '49, Luncheon with the President
+DESCRIPTION:Lunch for the 70th and 75th Reunion classes.
+LOCATION:Language and Dining Center Fireside Room
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805843
+LAST-MODIFIED:20190228T115609
+CREATED:20190228T115512
+DTSTAMP:20190413T133240
+DTSTART:20190622T120000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228115621-1805845@carleton.edu
+SUMMARY:'54, '59, '64, '69 Luncheon
+DESCRIPTION:Lunch for the 50th and post-50th Reunion classes.
+LOCATION:Language and Dining Center
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805845
+LAST-MODIFIED:20190228T115729
+CREATED:20190228T115621
+DTSTAMP:20190413T133240
+DTSTART:20190622T120000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117142018-1787615@carleton.edu
+SUMMARY:Camp Carleton Children's Program Check-in
+DESCRIPTION:Children's Program Check-in (children registered for afternoon
+  session should plan to eat with parents before joining the program)
+LOCATION:Bald Spot
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787615
+LAST-MODIFIED:20190228T101122
+CREATED:20190117T142018
+DTSTAMP:20190413T133240
+DTSTART:20190622T121500
+DURATION:PT0H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117142132-1787617@carleton.edu
+SUMMARY:Tour of the Kracum Wind Turbine (bus departs at 12:30 and 1:00)
+DESCRIPTION:One hour tour of the Kracum Wind Turbine with Martha Larson, M
+ anager of Campus Energy and Sustainability. (Bus departs at 12:30 and 1:00
+ )
+LOCATION:Skinner Memorial Chapel steps
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787617
+LAST-MODIFIED:20190117T142744
+CREATED:20190117T142132
+DTSTAMP:20190413T133240
+DTSTART:20190622T123000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117142243-1787621@carleton.edu
+SUMMARY:Book and CD Signing
+DESCRIPTION:Book and CD signing
+LOCATION:Sayles-Hill Great Space
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787621
+LAST-MODIFIED:20190117T142357
+CREATED:20190117T142243
+DTSTAMP:20190413T133240
+DTSTART:20190622T130000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117142415-1787624@carleton.edu
+SUMMARY:Weitz Center for Creativity Performance Commons guided tours
+DESCRIPTION:Weitz Center for Creativity guided tours (tours start at 1, 1:
+ 30, 2, and 2:30pm)
+LOCATION:Meet at Weitz Center for Creativity Main Entrance
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787624
+LAST-MODIFIED:20190117T142735
+CREATED:20190117T142415
+DTSTAMP:20190413T133240
+DTSTART:20190622T130000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117142950-1787643@carleton.edu
+SUMMARY:Walking Tour of the Cowling Arboretum
+DESCRIPTION:Walk with Nancy Braker '81, Puzak Family Director of the Cowli
+ ng Arboretum and Myles Bakke, Retired Arboretum Manager.
+LOCATION:Meet at Arb kiosk outside Recreation Center
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787643
+LAST-MODIFIED:20190228T101249
+CREATED:20190117T142950
+DTSTAMP:20190413T133240
+DTSTART:20190622T130000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190214093002-1800723@carleton.edu
+SUMMARY:'14 Class Photo
+DESCRIPTION:Come join us for your class photo!
+LOCATION:Skinner Memorial Chapel
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1800723
+LAST-MODIFIED:20190228T101149
+CREATED:20190214T093002
+DTSTAMP:20190413T133240
+DTSTART:20190622T130000
+DURATION:PT0H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228115850-1805850@carleton.edu
+SUMMARY:'04 Wee Carls Cool Off with Lawn Sprinklers
+DESCRIPTION:'04 Wee Carls Cool Off with Lawn Sprinklers outside Evans Hall
+LOCATION:Evans Hall basement
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805850
+LAST-MODIFIED:20190228T115959
+CREATED:20190228T115850
+DTSTAMP:20190413T133240
+DTSTART:20190622T130000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228115736-1805848@carleton.edu
+SUMMARY:'64 How We Engage with Politics, Policy, and Civil Discourse
+DESCRIPTION:'64 The State of Us: How We Engage with Issues of Politics, Po
+ licy, and Civil Discourse Facing Our World
+LOCATION:Nourse Little Theater
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805848
+LAST-MODIFIED:20190408T095557
+CREATED:20190228T115736
+DTSTAMP:20190413T133240
+DTSTART:20190622T131500
+DURATION:PT1H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221164619-1803502@carleton.edu
+SUMMARY:'69 Having the Time of Your Life: Healthy Lifestyles
+DESCRIPTION:'69 Having the Time of Your Life: Healthy Lifestyles (Yoga, Fi
+ tness, and Nutrition)
+LOCATION:Weitz Center for Creativity 132
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803502
+LAST-MODIFIED:20190402T120206
+CREATED:20190221T164619
+DTSTAMP:20190413T133240
+DTSTART:20190622T133000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221164856-1803509@carleton.edu
+SUMMARY:'69 Having the Time of Your Life: Volunteering
+DESCRIPTION:Betty Olson-Jones will describe how she went from teaching ele
+ mentary school and being President of her teachers' union to becoming a Ma
+ ster Gardener, advising home gardeners and teaching local school kids abou
+ t gardening. David Bradshaw will describe how he tutors children by sharin
+ g the gift of reading that his grandmother gave him.
+LOCATION:Weitz Center for Creativity 133
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803509
+LAST-MODIFIED:20190221T165016
+CREATED:20190221T164856
+DTSTAMP:20190413T133240
+DTSTART:20190622T133000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221165026-1803511@carleton.edu
+SUMMARY:'69 Having the Time of Your Life: Finances and Assets
+DESCRIPTION:An overview, led by Cynthia Hinds and Joe Schuman, of possibil
+ ities and challenges associated with personal finance decisions.
+LOCATION:Weitz Center for Creativity 138
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803511
+LAST-MODIFIED:20190221T165159
+CREATED:20190221T165026
+DTSTAMP:20190413T133240
+DTSTART:20190622T133000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221165212-1803516@carleton.edu
+SUMMARY:'69 Having the Time of Your Life: Music and Performing Arts
+DESCRIPTION:A meeting of those interested in music, theater, street corner
+  juggling, or whatever is your passion.
+LOCATION:Weitz Center for Creativity 230
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803516
+LAST-MODIFIED:20190228T101448
+CREATED:20190221T165212
+DTSTAMP:20190413T133240
+DTSTART:20190622T133000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221165345-1803520@carleton.edu
+SUMMARY:'69 Having the Time of Your Life: Parenting Adult Children
+DESCRIPTION:Sharing our own hard-earned wisdom about the opportunities and
+  pitfalls of parenting adult children and grandchildren.
+LOCATION:Weitz Center for Creativity 233
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803520
+LAST-MODIFIED:20190221T165455
+CREATED:20190221T165345
+DTSTAMP:20190413T133240
+DTSTART:20190622T133000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228120103-1805852@carleton.edu
+SUMMARY:C Company's Liberation of Dachau (Dan P. Dougherty), hosted by '49
+DESCRIPTION:Dan Dougherty '49, a member of the 2nd Platoon of C Company, 1
+ 57th Regiment, 45th Division. More to come...
+LOCATION:Weitz Center for Creativity cinema
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805852
+LAST-MODIFIED:20190228T120305
+CREATED:20190228T120103
+DTSTAMP:20190413T133240
+DTSTART:20190622T133000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228130716-1805873@carleton.edu
+SUMMARY:'94 Telling Tales
+DESCRIPTION:We all once composed our college essays, choosing a prompt tha
+ t allowed us to reveal a bit about ourselves in an effort to gain admissio
+ n.
+LOCATION:Weitz Center for Creativity Kracum Perfomance Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805873
+LAST-MODIFIED:20190228T131020
+CREATED:20190228T130716
+DTSTAMP:20190413T133240
+DTSTART:20190622T133000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190327141843-1813952@carleton.edu
+SUMMARY:'54 Memorial Program
+DESCRIPTION:A memorial service for '54 classmates who have passed away.
+LOCATION:Alumni Guest House patio
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1813952
+LAST-MODIFIED:20190327T141946
+CREATED:20190327T141843
+DTSTAMP:20190413T133240
+DTSTART:20190622T133000
+DURATION:PT0H45M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228131040-1805875@carleton.edu
+SUMMARY:Football Movie: Carleton Beats St. Olaf, hosted by '74
+DESCRIPTION:Enjoy the game film from Oct. 20, 1973, when Carleton defeated
+  St. Olaf, 16-14, for the first time in a decade.
+LOCATION:Weitz Center for Creativity Applebaum Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805875
+LAST-MODIFIED:20190228T131202
+CREATED:20190228T131040
+DTSTAMP:20190413T133240
+DTSTART:20190622T134500
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190214092411-1800709@carleton.edu
+SUMMARY:'99 Class Photo
+DESCRIPTION:Come join us for your class photo!
+LOCATION:Skinner Memorial Chapel
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1800709
+LAST-MODIFIED:20190221T083731
+CREATED:20190214T092411
+DTSTAMP:20190413T133240
+DTSTART:20190622T140000
+DURATION:PT0H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228131223-1805877@carleton.edu
+SUMMARY:'79 Mindfulness, Meditation, and Mental Makeovers
+DESCRIPTION:Come learn about the Three-Minute Mental Makeover!
+LOCATION:Olin Hall 149
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805877
+LAST-MODIFIED:20190315T110546
+CREATED:20190228T131223
+DTSTAMP:20190413T133240
+DTSTART:20190622T140000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228131339-1805881@carleton.edu
+SUMMARY:Class of '84 hosted TED-ish Talks with Q&A
+DESCRIPTION:Hear classmates share their areas of expertise and passions in
+  5-10 minute presentations followed by questions and lively discussion.
+LOCATION:Weitz Center for Creativity theater
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805881
+LAST-MODIFIED:20190312T151028
+CREATED:20190228T131339
+DTSTAMP:20190413T133240
+DTSTART:20190622T140000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228131626-1805885@carleton.edu
+SUMMARY:'59 Cultural Changes 1959-2019
+DESCRIPTION:A discussion of how various political and social movements sin
+ ce 1959 have affected your personal, family, and/or career life.
+LOCATION:Gould Library Athanaeum
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805885
+LAST-MODIFIED:20190408T095428
+CREATED:20190228T131626
+DTSTAMP:20190413T133240
+DTSTART:20190622T140000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190214092450-1800711@carleton.edu
+SUMMARY:'09 Class Photo
+DESCRIPTION:Come join us for your class photo!
+LOCATION:Skinner Memorial Chapel
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1800711
+LAST-MODIFIED:20190221T083816
+CREATED:20190214T092450
+DTSTAMP:20190413T133240
+DTSTART:20190622T143000
+DURATION:PT0H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190327141723-1813949@carleton.edu
+SUMMARY:'54 Book Discussion organized by Floyd Short '54
+DESCRIPTION:A discussion of books led by Floyd Short '54.
+LOCATION:Scoville Hall reading room
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1813949
+LAST-MODIFIED:20190402T120230
+CREATED:20190327T141723
+DTSTAMP:20190413T133240
+DTSTART:20190622T143000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221165506-1803526@carleton.edu
+SUMMARY:'69 Having the Time of Your Life: What Do We Owe the Next Generati
+ ons?
+DESCRIPTION:Burt Saxon will help us discuss what we, the wealthiest and lo
+ ngest-lived generation in American history, owe our children and grandchil
+ dren
+LOCATION:Weitz Center for Creativity 132
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803526
+LAST-MODIFIED:20190221T165740
+CREATED:20190221T165506
+DTSTAMP:20190413T133240
+DTSTART:20190622T144500
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221165757-1803534@carleton.edu
+SUMMARY:'69 Having the Time of Your Life: Travel off the Beaten Path
+DESCRIPTION:A roundtable discussion and presentation with the goal of shar
+ ing and learning about places we've been and adventures we've experienced.
+LOCATION:Weitz Center for Creativity 133
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803534
+LAST-MODIFIED:20190221T170120
+CREATED:20190221T165757
+DTSTAMP:20190413T133240
+DTSTART:20190622T144500
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221170152-1803543@carleton.edu
+SUMMARY:'69 Having the Time of Your Life: Your Health Care Decisions and N
+ eeds
+DESCRIPTION:Where will you spend your future years? What do you want to sh
+ are with providers and family? How do you navigate the health care system?
+LOCATION:Weitz Center for Creativity 138
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803543
+LAST-MODIFIED:20190329T091049
+CREATED:20190221T170152
+DTSTAMP:20190413T133240
+DTSTART:20190622T144500
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190221170430-1803547@carleton.edu
+SUMMARY:'69 Having the Time of Your Life: Visual Arts
+DESCRIPTION:Classmates describe how they see their art as a way to express
+  themselves in something enduring and/or as a bridge to retirement.
+LOCATION:Weitz Center for Creativity 230
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803547
+LAST-MODIFIED:20190304T160942
+CREATED:20190221T170430
+DTSTAMP:20190413T133240
+DTSTART:20190622T144500
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228102035-1805750@carleton.edu
+SUMMARY:'69 Oral History Program Group Interview
+DESCRIPTION:The Carleton Oral History Program adds a robust layer of histo
+ ry to the College Archives by interviewing faculty, staff, alumni and reti
+ rees
+LOCATION:Gould Library 305
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805750
+LAST-MODIFIED:20190301T103716
+CREATED:20190228T102035
+DTSTAMP:20190413T133240
+DTSTART:20190622T144500
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117145557-1787657@carleton.edu
+SUMMARY:Teen Camp ice cream making at Dacie Moses house
+DESCRIPTION:Ice Cream at Dacie Moses House
+LOCATION:Meet at Sayles-Hill Lounge
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787657
+LAST-MODIFIED:20190228T101749
+CREATED:20190117T145557
+DTSTAMP:20190413T133240
+DTSTART:20190622T150000
+DURATION:PT0H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117145900-1787663@carleton.edu
+SUMMARY:Teen Camp Climbing wall, bouldering, and Rec Center exploration
+DESCRIPTION:Climbing wall, bouldering, and Rec center exploration
+LOCATION:Meet at Sayles-Hill Lounge
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787663
+LAST-MODIFIED:20190228T101913
+CREATED:20190117T145900
+DTSTAMP:20190413T133240
+DTSTART:20190622T150000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117150042-1787665@carleton.edu
+SUMMARY:Welcome Home to Dacie's Homemade Ice Cream Reunion Event
+DESCRIPTION:Make home-made ice cream and gather around the piano at Dacie 
+ Moses. This event is rain or shine.
+LOCATION:Dacie Moses House, 110 Union Street
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787665
+LAST-MODIFIED:20190401T095701
+CREATED:20190117T150042
+DTSTAMP:20190413T133240
+DTSTART:20190622T150000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190214092524-1800713@carleton.edu
+SUMMARY:'04 Class Photo
+DESCRIPTION:Come join us for your class photo!
+LOCATION:Skinner Memorial Chapel
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1800713
+LAST-MODIFIED:20190221T083826
+CREATED:20190214T092524
+DTSTAMP:20190413T133240
+DTSTART:20190622T150000
+DURATION:PT0H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220103907-1802820@carleton.edu
+SUMMARY:Showing of the film Northern Lights, hosted by '64
+DESCRIPTION:John Hanson '64 will show his film Northern Lights and lead a 
+ discussion following the showing.
+LOCATION:Weitz Center for Creativity cinema
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802820
+LAST-MODIFIED:20190320T121320
+CREATED:20190220T103907
+DTSTAMP:20190413T133240
+DTSTART:20190622T150000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228134742-1805925@carleton.edu
+SUMMARY:'59 Remembrance Service
+DESCRIPTION:Remembrance
+LOCATION:Gould Library Athanaeum
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805925
+LAST-MODIFIED:20190327T142102
+CREATED:20190228T134742
+DTSTAMP:20190413T133240
+DTSTART:20190622T150000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228131808-1805888@carleton.edu
+SUMMARY:'09 Lawn Games
+DESCRIPTION:Join your classmates on the Parish Lawn and park across from P
+ arish for family-friendly games
+LOCATION:Parish House tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805888
+LAST-MODIFIED:20190228T131931
+CREATED:20190228T131808
+DTSTAMP:20190413T133240
+DTSTART:20190622T153000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117150227-1787671@carleton.edu
+SUMMARY:Alumni Choir Rehearsal
+DESCRIPTION:Alumni Choir Rehearsal (family and friends ages 16+ welcome)
+LOCATION:Skinner Memorial Chapel
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787671
+LAST-MODIFIED:20190228T102021
+CREATED:20190117T150227
+DTSTAMP:20190413T133240
+DTSTART:20190622T160000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220104105-1802822@carleton.edu
+SUMMARY:'69 Oral History Program Group Interview
+DESCRIPTION:The Carleton Oral History Program adds a layer of history to t
+ he College Archives by interviewing faculty, staff, alumni and retirees.
+LOCATION:Gould Library 305
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802822
+LAST-MODIFIED:20190220T104226
+CREATED:20190220T104105
+DTSTAMP:20190413T133240
+DTSTART:20190622T160000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228132147-1805895@carleton.edu
+SUMMARY:'84 Afternoon Kick Ball Tournament
+DESCRIPTION:Play kickball for some casual fun outside with your classmates
+ .
+LOCATION:TBA
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805895
+LAST-MODIFIED:20190228T152111
+CREATED:20190228T132147
+DTSTAMP:20190413T133240
+DTSTART:20190622T160000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228132852-1805899@carleton.edu
+SUMMARY:'99 hosts '04 and '14 for Vertical Happy Hour and Networking Event
+DESCRIPTION:Mingle with your former classmates and meet your new reunion-m
+ ates. Meet others who have common interests or professional goals.
+LOCATION:Recreation Center tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805899
+LAST-MODIFIED:20190228T133116
+CREATED:20190228T132852
+DTSTAMP:20190413T133240
+DTSTART:20190622T160000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228131955-1805890@carleton.edu
+SUMMARY:Medical Humanities: Telling Our Stories hosted by '89
+DESCRIPTION:Discussion of Jennifer Bonner's book with the author Susan Kus
+ hner.
+LOCATION:Weitz Center for Creativity theater
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805890
+LAST-MODIFIED:20190401T142431
+CREATED:20190228T131955
+DTSTAMP:20190413T133240
+DTSTART:20190622T160000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228102549-1805753@carleton.edu
+SUMMARY:Camp Carleton Children's Program check-in for dinner and movie
+DESCRIPTION:Camp Carleton Children's Program Check-in for dinner and a mov
+ ie (for pre-registered children only)
+LOCATION:Sayles-Hill 251
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805753
+LAST-MODIFIED:20190228T102706
+CREATED:20190228T102549
+DTSTAMP:20190413T133240
+DTSTART:20190622T161500
+DURATION:PT0H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190220104246-1802824@carleton.edu
+SUMMARY:'94 Memorial Tree Dedication
+DESCRIPTION:Dedication ceremony for memorial class tree
+LOCATION:Laird Hall front lawn
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1802824
+LAST-MODIFIED:20190220T104343
+CREATED:20190220T104246
+DTSTAMP:20190413T133240
+DTSTART:20190622T163000
+DURATION:PT0H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190312142907-1809982@carleton.edu
+SUMMARY:'59 Piano Performance by Judy Darst '59
+DESCRIPTION:Judy Darst '59 will give a piano performance.
+LOCATION:Weitz Center for Creativity Applebaum Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1809982
+LAST-MODIFIED:20190408T095229
+CREATED:20190312T142907
+DTSTAMP:20190413T133240
+DTSTART:20190622T163000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190214092618-1800716@carleton.edu
+SUMMARY:'94 Class Photo
+DESCRIPTION:Come join us for your class photo!
+LOCATION:Skinner Memorial Chapel
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1800716
+LAST-MODIFIED:20190221T083913
+CREATED:20190214T092618
+DTSTAMP:20190413T133240
+DTSTART:20190622T170000
+DURATION:PT0H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190214092713-1800718@carleton.edu
+SUMMARY:'44, '49, and '54 Class Photo
+DESCRIPTION:Class photo during Saturday evening class reception.
+LOCATION:Alumni Guest House patio
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1800718
+LAST-MODIFIED:20190314T105305
+CREATED:20190214T092713
+DTSTAMP:20190413T133240
+DTSTART:20190622T170000
+DURATION:PT0H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190222084549-1803609@carleton.edu
+SUMMARY:'69 Reception and Jazz Jam Session
+DESCRIPTION:Enjoy social time with your classmates and live music in the W
+ atson tent.
+LOCATION:Watson Hall main lounge and tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803609
+LAST-MODIFIED:20190408T100705
+CREATED:20190222T084549
+DTSTAMP:20190413T133240
+DTSTART:20190622T170000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190222085445-1803627@carleton.edu
+SUMMARY:'44, '49, '54 Class Reception, Dinner to follow at 6:00pm
+DESCRIPTION:Come join your classmates for a reception, Dinner in the Alumn
+ i Guest House.
+LOCATION:Alumni Guest House meeting room
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803627
+LAST-MODIFIED:20190326T113822
+CREATED:20190222T085445
+DTSTAMP:20190413T133240
+DTSTART:20190622T170000
+DURATION:PT3H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228133122-1805903@carleton.edu
+SUMMARY:'79 Reading with Lincoln Child
+DESCRIPTION:Come hear our award-winning classmate read from his recent wor
+ ks and talk about the creative process.
+LOCATION:Olin Hall 149
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805903
+LAST-MODIFIED:20190228T141951
+CREATED:20190228T133122
+DTSTAMP:20190413T133240
+DTSTART:20190622T170000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190222084704-1803611@carleton.edu
+SUMMARY:'94 Art Reception
+DESCRIPTION:Reception for the class of 1994
+LOCATION:Weitz Center for Creativity Mar G Commons
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803611
+LAST-MODIFIED:20190402T120414
+CREATED:20190222T084704
+DTSTAMP:20190413T133240
+DTSTART:20190622T173000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190222084800-1803613@carleton.edu
+SUMMARY:'64 Class reception, dinner to follow at 6:30 p.m.
+DESCRIPTION:Join your classmates for dinner and conversation.
+LOCATION:Weitz Center for Creativity Larson Family Meeting Room (236)
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803613
+LAST-MODIFIED:20190222T084849
+CREATED:20190222T084800
+DTSTAMP:20190413T133240
+DTSTART:20190622T173000
+DURATION:PT2H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190222085654-1803631@carleton.edu
+SUMMARY:'59 Reception, Dinner to follow at 6:00pm
+DESCRIPTION:Class Dinner
+LOCATION:Weitz Center for Creativity Shackel Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803631
+LAST-MODIFIED:20190322T151143
+CREATED:20190222T085654
+DTSTAMP:20190413T133240
+DTSTART:20190622T173000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190214092819-1800720@carleton.edu
+SUMMARY:'89 Class Photo
+DESCRIPTION:Come join us for your class photo!
+LOCATION:Skinner Memorial Chapel
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1800720
+LAST-MODIFIED:20190221T083922
+CREATED:20190214T092819
+DTSTAMP:20190413T133240
+DTSTART:20190622T174500
+DURATION:PT0H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190222085046-1803616@carleton.edu
+SUMMARY:'09 Class reception, dinner to follow at 6:30 p.m.
+DESCRIPTION:Join your classmates for dinner and conversation.
+LOCATION:Parish House tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803616
+LAST-MODIFIED:20190222T085140
+CREATED:20190222T085046
+DTSTAMP:20190413T133240
+DTSTART:20190622T174500
+DURATION:PT2H15M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117150814-1787691@carleton.edu
+SUMMARY:Teen Camp Dinner at Hogan Brothers
+DESCRIPTION:Take a short walk to one of Northfield's hippest eateries- Hog
+ an Brothers.
+LOCATION:Sayles-Hill Lounge
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787691
+LAST-MODIFIED:20190228T103031
+CREATED:20190117T150814
+DTSTAMP:20190413T133240
+DTSTART:20190622T180000
+DURATION:PT3H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190222085144-1803618@carleton.edu
+SUMMARY:'89 Class Dinner
+DESCRIPTION:Join your classmates for dinner and conversation.
+LOCATION:Language and Dining Center
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803618
+LAST-MODIFIED:20190222T085235
+CREATED:20190222T085144
+DTSTAMP:20190413T133240
+DTSTART:20190622T180000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190222085237-1803620@carleton.edu
+SUMMARY:'04 Class Dinner
+DESCRIPTION:Join your classmates for dinner and conversation.
+LOCATION:Evans Hall tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803620
+LAST-MODIFIED:20190222T085333
+CREATED:20190222T085237
+DTSTAMP:20190413T133240
+DTSTART:20190622T180000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190222085335-1803623@carleton.edu
+SUMMARY:'99 Class Dinner
+DESCRIPTION:Class Dinner
+LOCATION:Lower Lyman Lake tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803623
+LAST-MODIFIED:20190222T085440
+CREATED:20190222T085335
+DTSTAMP:20190413T133240
+DTSTART:20190622T180000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190222085611-1803629@carleton.edu
+SUMMARY:'74 Class Dinner
+DESCRIPTION:Join your classmates for dinner and conversation.
+LOCATION:The Grand, 316 Washington Street
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803629
+LAST-MODIFIED:20190408T100258
+CREATED:20190222T085611
+DTSTAMP:20190413T133240
+DTSTART:20190622T180000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190222085752-1803633@carleton.edu
+SUMMARY:'84 Class dinner
+DESCRIPTION:Join your classmates for dinner and conversation.
+LOCATION:Johnson House tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803633
+LAST-MODIFIED:20190222T085841
+CREATED:20190222T085752
+DTSTAMP:20190413T133240
+DTSTART:20190622T183000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190222085846-1803635@carleton.edu
+SUMMARY:'79 Class Dinner
+DESCRIPTION:Join your classmates for dinner at 6:30 pm
+LOCATION:Severance Hall Tea Room
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803635
+LAST-MODIFIED:20190222T085930
+CREATED:20190222T085846
+DTSTAMP:20190413T133240
+DTSTART:20190622T183000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190222085934-1803637@carleton.edu
+SUMMARY:'14 Class Dinner
+DESCRIPTION:Join your classmates for dinner and conversation.
+LOCATION:Recreation Center tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803637
+LAST-MODIFIED:20190222T090026
+CREATED:20190222T085934
+DTSTAMP:20190413T133240
+DTSTART:20190622T183000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190222090031-1803639@carleton.edu
+SUMMARY:'69 Class Dinner
+DESCRIPTION:Join your classmates for our final dinner as we celebrate our 
+ 50th Reunion
+LOCATION:Severance Hall Great Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803639
+LAST-MODIFIED:20190408T100544
+CREATED:20190222T090031
+DTSTAMP:20190413T133240
+DTSTART:20190622T183000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190222090203-1803641@carleton.edu
+SUMMARY:'94 Class Dinner
+DESCRIPTION:1994 Class Dinner
+LOCATION:Weitz Center for Creativity Class of 1980 Commons
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1803641
+LAST-MODIFIED:20190402T120436
+CREATED:20190222T090203
+DTSTAMP:20190413T133240
+DTSTART:20190622T183000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117151103-1787694@carleton.edu
+SUMMARY:Folk song sing-along
+DESCRIPTION:For more than 40 years, Carleton students have met every Wedne
+ sday night to raise their voices in song at a campfire-style sing-along.
+LOCATION:Johnson House tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787694
+LAST-MODIFIED:20190117T151510
+CREATED:20190117T151103
+DTSTAMP:20190413T133240
+DTSTART:20190622T200000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117151523-1787699@carleton.edu
+SUMMARY:Camp Carleton Children's Program Pick-up Children
+DESCRIPTION:Camp Carleton Children's Program Pick-up Children
+LOCATION:Sayles-Hill 251
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787699
+LAST-MODIFIED:20190117T151540
+CREATED:20190117T151523
+DTSTAMP:20190413T133240
+DTSTART:20190622T200000
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117152143-1787710@carleton.edu
+SUMMARY:Informal Class Gatherings
+DESCRIPTION:Informal class social time in your class hospitality lounges.
+LOCATION:Class hospitality lounges
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787710
+LAST-MODIFIED:20190117T152226
+CREATED:20190117T152143
+DTSTAMP:20190413T133240
+DTSTART:20190622T200000
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228133312-1805905@carleton.edu
+SUMMARY:'69 Social Time
+DESCRIPTION:Gather with friends and catch up in the 50th Reunion tent and 
+ lounge.
+LOCATION:Watson Hall main lounge
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805905
+LAST-MODIFIED:20190228T133425
+CREATED:20190228T133312
+DTSTAMP:20190413T133240
+DTSTART:20190622T200000
+DURATION:PT4H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190306134943-1808031@carleton.edu
+SUMMARY:'69 Theater of Public Policy
+DESCRIPTION:Enjoy improv comedy based on our college experience!
+LOCATION:Severance Hall Great Hall
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1808031
+LAST-MODIFIED:20190306T135750
+CREATED:20190306T134943
+DTSTAMP:20190413T133240
+DTSTART:20190622T200000
+DURATION:PT0H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190312142725-1809979@carleton.edu
+SUMMARY:Dear Mozart
+DESCRIPTION:Eve Meyer '64 and Richard Figge '64 will present a dramatic re
+ ading.
+LOCATION:Weitz Center for Creativity cinema
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1809979
+LAST-MODIFIED:20190312T142827
+CREATED:20190312T142725
+DTSTAMP:20190413T133240
+DTSTART:20190622T200000
+DURATION:PT1H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228133432-1805907@carleton.edu
+SUMMARY:'09 Dj Party and Mai Fete Bonfire
+DESCRIPTION:Saturday DJ dance party.
+LOCATION:Lower Lyman Lake tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805907
+LAST-MODIFIED:20190228T133714
+CREATED:20190228T133432
+DTSTAMP:20190413T133240
+DTSTART:20190622T203000
+DURATION:PT3H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228133739-1805909@carleton.edu
+SUMMARY:'14 Not a Silent Dance Party
+DESCRIPTION:Join your classmates for a dance party behind the Rec Center f
+ ollowing our class dinner!
+LOCATION:Recreation Center tent
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805909
+LAST-MODIFIED:20190402T120504
+CREATED:20190228T133739
+DTSTAMP:20190413T133240
+DTSTART:20190622T203000
+DURATION:PT3H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228133851-1805911@carleton.edu
+SUMMARY:'84 Get Into The Groove Party at the Cave
+DESCRIPTION:Get up on your feet, yeah, step to the beat, boy what will it 
+ be? Who will be there?!? On Saturday night we’ve booked the Cave for the C
+ lass of 1984 and we guarantee this will be a not-to-miss highlight of reun
+ ion.
+LOCATION:The Cave
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805911
+LAST-MODIFIED:20190401T110432
+CREATED:20190228T133851
+DTSTAMP:20190413T133240
+DTSTART:20190622T203000
+DURATION:PT3H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228134037-1805916@carleton.edu
+SUMMARY:Terry and the T-Birds, hosted by '74
+DESCRIPTION:The band will take the stage at The Grand to rock your socks o
+ ff following the Class Dinner. Dance floor and refreshments provided.
+LOCATION:The Grand, 316 Washington Street
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805916
+LAST-MODIFIED:20190408T100222
+CREATED:20190228T134037
+DTSTAMP:20190413T133240
+DTSTART:20190622T203000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117151607-1787701@carleton.edu
+SUMMARY:All-Reunion Entertainment featuring the R Factor, hosted by '94
+DESCRIPTION:Dance the night away with the R Factor
+LOCATION:Sayles-Hill Great Space
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787701
+LAST-MODIFIED:20190402T120611
+CREATED:20190117T151607
+DTSTAMP:20190413T133240
+DTSTART:20190622T210000
+DURATION:PT3H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117151918-1787703@carleton.edu
+SUMMARY:Teen Camp Bonfire
+DESCRIPTION:Round out the weekend with a bonfire at the Council Ring near 
+ Lyman Lakes.
+LOCATION:Council Ring, Lower Lyman Lakes
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787703
+LAST-MODIFIED:20190228T103238
+CREATED:20190117T151918
+DTSTAMP:20190413T133240
+DTSTART:20190622T210000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117152052-1787708@carleton.edu
+SUMMARY:Alcoholics Anonymous Meeting
+DESCRIPTION:AA open meeting: anyone can attend. Discussion Format.
+LOCATION:Willis Hall 203
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787708
+LAST-MODIFIED:20190228T103258
+CREATED:20190117T152052
+DTSTAMP:20190413T133240
+DTSTART:20190622T210000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228134245-1805919@carleton.edu
+SUMMARY:'04 Twilight on the Terrace
+DESCRIPTION:Join your fellow Class of 2004 alumni back at the ranch for a 
+ sunset social on the Evans Terrace.
+LOCATION:Evans Hall first floor lounge
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805919
+LAST-MODIFIED:20190318T123253
+CREATED:20190228T134245
+DTSTAMP:20190413T133240
+DTSTART:20190622T210000
+DURATION:PT3H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117152407-1787715@carleton.edu
+SUMMARY:Information Desk Open
+DESCRIPTION:The info desk will be open during the following hours: Sunday.
+  6 a.m. - 12 p.m.
+LOCATION:Sayles-Hill
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787715
+LAST-MODIFIED:20190228T103341
+CREATED:20190117T152407
+DTSTAMP:20190413T133240
+DTSTART:20190623T060000
+DURATION:PT6H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117152645-1787719@carleton.edu
+SUMMARY:Checkout and Key Return
+DESCRIPTION:Info Desk open for checkout
+LOCATION:Sayles-Hill Great Space
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787719
+LAST-MODIFIED:20190402T120629
+CREATED:20190117T152645
+DTSTAMP:20190413T133240
+DTSTART:20190623T060000
+DURATION:PT6H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117152821-1787721@carleton.edu
+SUMMARY:All-Class Breakfast - Language and Dining Center
+DESCRIPTION:Coffee available at 6:30 a.m. in the Sayles-Hill Great Space; 
+ breakfast served 7-9 a.m.
+LOCATION:Language and Dining Center
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787721
+LAST-MODIFIED:20190301T145526
+CREATED:20190117T152821
+DTSTAMP:20190413T133240
+DTSTART:20190623T070000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228134441-1805921@carleton.edu
+SUMMARY:'74 Memorial Tree Dedication
+DESCRIPTION:We'll remember our classmates with word and music, and we'll d
+ edicate a tree in their honor.
+LOCATION:Bald spot
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805921
+LAST-MODIFIED:20190228T141759
+CREATED:20190228T134441
+DTSTAMP:20190413T133240
+DTSTART:20190623T073000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190326113836-1813580@carleton.edu
+SUMMARY:'64 Memorial Program
+DESCRIPTION:Please join your classmates for a memorial program.
+LOCATION:Alumni Guest House patio
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1813580
+LAST-MODIFIED:20190408T095714
+CREATED:20190326T113836
+DTSTAMP:20190413T133240
+DTSTART:20190623T074500
+DURATION:PT0H45M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117152906-1787725@carleton.edu
+SUMMARY:All-Class Breakfast - Severance Tea Room
+DESCRIPTION:Coffee available in Sayles-Hill Great Space at 6:30 a.m. Break
+ fast 8-10 a.m.
+LOCATION:Severance Hall Tea Room
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787725
+LAST-MODIFIED:20190301T145541
+CREATED:20190117T152906
+DTSTAMP:20190413T133240
+DTSTART:20190623T080000
+DURATION:PT2H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190228134617-1805923@carleton.edu
+SUMMARY:'69 We Remember Our Departed Classmates
+DESCRIPTION:Join your classmates in the Japanese Garden as we remember tho
+ se who are no longer with us.
+LOCATION:Japanese Garden
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1805923
+LAST-MODIFIED:20190228T134721
+CREATED:20190228T134617
+DTSTAMP:20190413T133240
+DTSTART:20190623T080000
+DURATION:PT0H45M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117152944-1787727@carleton.edu
+SUMMARY:Alumni Choir Rehearsal
+DESCRIPTION:Alumni Choir Rehearsal (family and friends ages 16+ welcome)
+LOCATION:Skinner Memorial Chapel
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787727
+LAST-MODIFIED:20190117T153041
+CREATED:20190117T152944
+DTSTAMP:20190413T133240
+DTSTART:20190623T083000
+DURATION:PT0H45M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117153222-1787729@carleton.edu
+SUMMARY:Need a coloring break? Illustrate the Libe
+DESCRIPTION:Are you part of the adult coloring movement? Markers, colored 
+ pencils, and library theme prompts provided.
+LOCATION:Gould Library East Wing
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787729
+LAST-MODIFIED:20190117T153244
+CREATED:20190117T153222
+DTSTAMP:20190413T133240
+DTSTART:20190623T090000
+DURATION:PT3H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117153258-1787731@carleton.edu
+SUMMARY:Remember Me - Help the Archives identify people from Carleton's pa
+ st
+DESCRIPTION:Help the Archives identify people from Carleton's past.
+LOCATION:Gould Library Lobby
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787731
+LAST-MODIFIED:20190304T101640
+CREATED:20190117T153258
+DTSTAMP:20190413T133240
+DTSTART:20190623T090000
+DURATION:PT3H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117153355-1787733@carleton.edu
+SUMMARY:Books, coloring sheets, games, and puzzles for kids.
+DESCRIPTION:Looking for something for your children to do? Visit the Gould
+  Library Rockery for books, coloring sheets, and puzzles for kids.
+LOCATION:Gould Library Rookery
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787733
+LAST-MODIFIED:20190117T153417
+CREATED:20190117T153355
+DTSTAMP:20190413T133240
+DTSTART:20190623T090000
+DURATION:PT3H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117153423-1787735@carleton.edu
+SUMMARY:Dacie Moses open house and brunch
+DESCRIPTION:Dacie Moses Open House- Come by for breakfast! Rain or shine.
+LOCATION:Dacie Moses House, 110 Union Street
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787735
+LAST-MODIFIED:20190228T103520
+CREATED:20190117T153423
+DTSTAMP:20190413T133240
+DTSTART:20190623T090000
+DURATION:PT3H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117153530-1787738@carleton.edu
+SUMMARY:Gould Library Open; exhibits
+DESCRIPTION:Visit the Gould Library and check out a variety of exhibits.
+LOCATION:Gould Library
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787738
+LAST-MODIFIED:20190117T153614
+CREATED:20190117T153530
+DTSTAMP:20190413T133240
+DTSTART:20190623T090000
+DURATION:PT3H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117153624-1787741@carleton.edu
+SUMMARY:Bookstore Open
+DESCRIPTION:Take a look at the redesigned bookstore and pick up your Carle
+ ton gear!
+LOCATION:Sayles-Hill
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787741
+LAST-MODIFIED:20190117T153823
+CREATED:20190117T153624
+DTSTAMP:20190413T133240
+DTSTART:20190623T090000
+DURATION:PT3H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117154047-1787745@carleton.edu
+SUMMARY:Alumni Multifaith Service of Remembrance and Celebration
+DESCRIPTION:Join with classmates and friends as we celebrate together in a
+  multifaith service featuring alumni from a variety of faith backgrounds.
+LOCATION:Skinner Memorial Chapel
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787745
+LAST-MODIFIED:20190117T154243
+CREATED:20190117T154047
+DTSTAMP:20190413T133240
+DTSTART:20190623T093000
+DURATION:PT1H0M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117154251-1787747@carleton.edu
+SUMMARY:Sweet Farewells Reception
+DESCRIPTION:Sweet Farewells Reception - Say goodbye to classmates and enjo
+ y a final treat before you depart!
+LOCATION:Skinner Memorial Chapel Narthex
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787747
+LAST-MODIFIED:20190117T154418
+CREATED:20190117T154251
+DTSTAMP:20190413T133240
+DTSTART:20190623T103000
+DURATION:PT0H30M0S
+END:VEVENT
+BEGIN:VEVENT
+UID:20190117154435-1787749@carleton.edu
+SUMMARY:Rediscover Northfield
+DESCRIPTION:Featuring local food, historic district tours, local shopping.
+LOCATION:Downtown Northfield
+URL:https://apps.carleton.edu/reunion/schedule/?event_id=1787749
+LAST-MODIFIED:20190325T101754
+CREATED:20190117T154435
+DTSTAMP:20190413T133240
+DTSTART:20190623T110000
+DURATION:PT5H0M0S
+END:VEVENT
+END:VCALENDAR
