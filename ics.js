@@ -21,6 +21,8 @@ var ics = function(uidDomain, prodId) {
   ].join(SEPARATOR);
   var calendarEnd = SEPARATOR + 'END:VCALENDAR';
   var BYDAY_VALUES = ['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'];
+  var uid = ''; // a holder for the UID parameter for each event
+  var uid_from_title_and_dates = false; // should we create a new UID from the title arg?
 
   return {
     /**
@@ -37,6 +39,43 @@ var ics = function(uidDomain, prodId) {
      */
     'calendar': function() {
       return calendarStart + SEPARATOR + calendarEvents.join(SEPARATOR) + calendarEnd;
+    },
+    
+    /**
+     * Sets this.uid to be a passed argument
+     * @param {string} newUID  The UID to store
+     */
+    'setUID': function(newUID) {
+      this.uid = newUID;
+      
+      // if we have both the autoUID and setUID, we need to allow the more specific to have higher precedence
+      this.uid_from_title_and_dates = false;
+    },
+    
+    /**
+     * Retrieves this.uid if it's set, otherwise it grabs the title and dates or the default uid depending on the this.uid_from_title flag
+     * @param {string} [title_and_dates=]
+     * @param {string} [default_uid=]
+     */
+     'getUID': function(title_and_dates = '', default_uid = '') {
+    
+        if (this.uid_from_title_and_dates) {
+          return title_and_dates;
+        }
+
+        if (this.uid != undefined && this.uid != '') {
+          return this.uid;
+        }
+  
+        return default_uid;
+     },
+    
+    /**
+     * Sets the this.uid_from_title_and_dates flag which allows a new UID for each event generated from the title of the event
+     * @param {boolean}
+     */
+    'autoUID': function(bool) {
+      this.uid_from_title_and_dates = bool;
     },
 
     /**
@@ -176,7 +215,7 @@ var ics = function(uidDomain, prodId) {
 
       var calendarEvent = [
         'BEGIN:VEVENT',
-        'UID:' + calendarEvents.length + "@" + uidDomain,
+        'UID:' + this.getUID(subject+now+start+end, calendarEvents.length + "@" + uidDomain),
         'CLASS:PUBLIC',
         'DESCRIPTION:' + description,
         'DTSTAMP;VALUE=DATE-TIME:' + now,
