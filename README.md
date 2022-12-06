@@ -44,7 +44,7 @@ If you want IE to allow for either opening documents as well as saving documents
 Supported Browsers
 ------------------
 
-| Browser        | Dependancies |
+| Browser        | Dependencies |
 | -------------- | ------------ |
 | Firefox 20+    | [FileSaver.js](https://github.com/eligrey/FileSaver.js) |
 | Firefox ≤ 19   | [FileSaver.js](https://github.com/eligrey/FileSaver.js), [Blob.js](https://github.com/eligrey/Blob.js) |
